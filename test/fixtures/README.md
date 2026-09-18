@@ -1,6 +1,6 @@
 # Fixtures
 
-These are real Hebits API responses, recorded on 2026-09-18 against the live tracker.
+These are real Hebits API responses, recorded on 2026-09-19 against the live tracker.
 
 - `browse-freeleech.json`, `browse-latest.json`, `search-imdb.json` — `ajax.php?action=browse`
   responses. Torrent listings on a private tracker are visible to any logged-in member; the
@@ -12,9 +12,12 @@ These are real Hebits API responses, recorded on 2026-09-18 against the live tra
   (`username`, `id`, `userstats.{uploaded,downloaded,ratio,requiredratio,class}`) has been
   replaced with a fixed, obviously-synthetic value; `authkey`, `passkey`, and `notifications`
   have been removed entirely. None of these numbers are the account owner's real figures.
-- `user-daily.html` — a single line extracted from the account's `user.php` page (the
-  daily-downloads counter the scraper needs). The rest of that page is personal and was
-  discarded.
+- `user-daily.html` — a small, self-contained element (`<li id="comm_daily_downloads">…</li>`)
+  cut out of the account's `user.php` page: the label and the counter live in separate nested
+  tags on the real page, so this keeps the real markup rather than a hand-cleaned string — the
+  fixture needs that nesting to actually exercise the scraper's tag-stripping. Everything else
+  on that page (ratio, upload/download totals in GiB, and other personal widgets) sits in a
+  neighboring block and was excluded; only the daily-downloads widget is present.
 
 `scripts/record-fixtures.mjs` (run on the machine holding the tracker cookie) and
 `scripts/scrub-fixtures.mjs` regenerate these from scratch if the API shape changes.

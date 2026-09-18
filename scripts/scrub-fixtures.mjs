@@ -42,9 +42,34 @@ for (const file of readdirSync(RAW).filter((f) => f.endsWith('.json'))) {
   writeFileSync(`${OUT}${file}`, JSON.stringify(j, null, 2) + '\n');
 }
 
-// The HTML page: keep only the daily-downloads line the scraper needs.
+// The HTML page: keep only the daily-downloads widget the scraper needs, as its real
+// markup — not a hand-cleaned string. On this page the label and the counter live in
+// separate nested elements (<li id="comm_daily_downloads">label<span>used/limit (pct%)
+// </span></li>); a window that stops at the first tag boundary keeps the label and loses
+// the numbers, which is exactly the bug this script used to have. Cut the whole element
+// instead. If the page no longer has that id, fall back to a wide character window
+// around the Hebrew label so there's still something to inspect and re-cut by hand.
 const html = readFileSync(`${RAW}/user.html`, 'utf8');
-const m = html.match(/[^<>]*הורדות יומיות:[^<>]*/);
-if (!m) throw new Error('daily-downloads line not found — the page changed');
-writeFileSync(`${OUT}user-daily.html`, `<html><body><span>${m[0].trim()}</span></body></html>\n`);
+const startTag = '<li id="comm_daily_downloads">';
+const start = html.indexOf(startTag);
+let windowHtml;
+if (start !== -1) {
+  const end = html.indexOf('</li>', start) + '</li>'.length;
+  windowHtml = html.slice(start, end);
+} else {
+  const needleIdx = html.indexOf('הורדות יומיות:');
+  if (needleIdx === -1) throw new Error('daily-downloads line not found — the page changed');
+  windowHtml = html.slice(Math.max(0, needleIdx - 200), needleIdx + 400);
+}
+const wrapped = `<html><body><ul>${windowHtml}</ul></body></html>\n`;
+
+// Assert it actually parses before writing it out — this mirrors parseDailyDownloads
+// in src/scrape.ts (tag-strip, then match) and must be kept in sync with it.
+const stripped = wrapped.replace(/<[^>]+>/g, ' ');
+const parsed = stripped.match(/הורדות יומיות:\s*(\d+)\s*\/\s*(\d+)/);
+if (!parsed || !(Number(parsed[1]) <= Number(parsed[2])) || !(Number(parsed[2]) > 0)) {
+  throw new Error('windowed HTML does not parse to two sane numbers — widen the window and rerun on /tmp/fixtures-raw/user.html (do not re-fetch)');
+}
+
+writeFileSync(`${OUT}user-daily.html`, wrapped);
 console.log('scrubbed to', OUT);
