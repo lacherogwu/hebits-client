@@ -131,8 +131,8 @@ export function flattenGroups(groups: RawGroup[]): HebitsTorrent[] {
         audio: t.audio,
         container: t.container,
         ...factorsFor(t),
-        canUseToken: t.canUseToken ?? false,
-        hasSnatched: t.hasSnatched ?? false,
+        canUseToken: t.canUseToken,
+        hasSnatched: t.hasSnatched,
       });
     }
   }

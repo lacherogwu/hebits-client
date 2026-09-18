@@ -42,3 +42,27 @@ test('parseOrThrow turns a schema mismatch into ApiError naming the field', () =
 test('a non-success status is rejected', () => {
   expect(browseResponseSchema.safeParse({ status: 'failure', response: { results: [] } }).success).toBe(false);
 });
+
+// canUseToken and hasSnatched are required, not optional: if the tracker ever drops one,
+// this is the guard that actually fires, rather than every torrent silently reporting a
+// plausible `false`.
+test('a torrent missing hasSnatched is rejected with ApiError, not defaulted', () => {
+  const group = {
+    groupId: 1, groupName: 'g', categoryID: 1,
+    torrents: [{
+      torrentId: 1, fileCount: 1, time: '2026-01-15 12:00:00', size: 100,
+      snatches: 0, seeders: 1, leechers: 0,
+      isFreeleech: false, isHalfFreeleech: false, isQuarterLeech: false, isNeutralLeech: false,
+      isPersonalFreeleech: false, isUploadX2: false, isUploadX3: false,
+      canUseToken: true,
+      // hasSnatched intentionally omitted
+    }],
+  };
+  const data = { status: 'success', response: { results: [group] } };
+  expect(() => parseOrThrow(browseResponseSchema, data, 'ajax.php?action=browse')).toThrow(ApiError);
+  try {
+    parseOrThrow(browseResponseSchema, data, 'ajax.php?action=browse');
+  } catch (e) {
+    expect((e as Error).message).toMatch(/hasSnatched/);
+  }
+});

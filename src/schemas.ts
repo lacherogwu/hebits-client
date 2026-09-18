@@ -27,8 +27,8 @@ export const rawTorrentSchema = z.object({
   isPersonalFreeleech: z.boolean(),
   isUploadX2: z.boolean(),
   isUploadX3: z.boolean(),
-  canUseToken: z.boolean().optional(),
-  hasSnatched: z.boolean().optional(),
+  canUseToken: z.boolean(),
+  hasSnatched: z.boolean(),
 });
 
 /** A release group: one film or show, holding several encodes. */

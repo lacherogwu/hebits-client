@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { browseResponseSchema } from '../src/schemas.js';
+import { browseResponseSchema, type RawGroup } from '../src/schemas.js';
 import { factorsFor, flattenGroups, imdbFromCatalogue, parseHebitsTime } from '../src/normalise.js';
 import { ApiError } from '../src/errors.js';
 
@@ -122,4 +122,37 @@ test('flattenGroups produces one row per torrent, not per group', () => {
 
 test('a group with no torrents contributes nothing and does not throw', () => {
   expect(flattenGroups([{ ...parsed.response.results[0]!, torrents: [] }])).toEqual([]);
+});
+
+// A hand-built literal, not a fixture: the fixture scrubber forces hasSnatched to false
+// on every recorded torrent, so a fixture-based test could never exercise `true` here.
+test('flattenGroups passes canUseToken and hasSnatched through as-is, including true', () => {
+  const group: RawGroup = {
+    groupId: 1,
+    groupName: 'Test Group',
+    categoryID: 1,
+    torrents: [
+      {
+        torrentId: 1,
+        fileCount: 1,
+        time: '2026-01-15 12:00:00',
+        size: 100,
+        snatches: 0,
+        seeders: 1,
+        leechers: 0,
+        isFreeleech: false,
+        isHalfFreeleech: false,
+        isQuarterLeech: false,
+        isNeutralLeech: false,
+        isPersonalFreeleech: false,
+        isUploadX2: false,
+        isUploadX3: false,
+        canUseToken: true,
+        hasSnatched: true,
+      },
+    ],
+  };
+  const [t] = flattenGroups([group]);
+  expect(t!.canUseToken).toBe(true);
+  expect(t!.hasSnatched).toBe(true);
 });
