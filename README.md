@@ -115,8 +115,8 @@ group.
 
 ```ts
 interface BrowseOptions {
-  query?: string;          // free-text search; an IMDb id works here too
-  imdb?: string;            // convenience: sets `query` to this IMDb id
+  query?: string;          // free-text search; an IMDb id works here too — ignored if `imdb` is also set
+  imdb?: string;            // convenience: sets `query` to this IMDb id; takes precedence, silently discarding `query`
   season?: number;          // appended to the query — Gazelle has no season parameter
   freeleechOnly?: boolean;
   categories?: number[];    // 1 Movies, 2 TV, 8 Movie packs — see the tracker's own category list

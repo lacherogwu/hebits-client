@@ -89,13 +89,14 @@ type Flags = Pick<
 /** Collapse the tracker's seven boolean flags into the two numbers consumers reason
  *  about, so nobody has to remember that isQuarterLeech means 0.25.
  *
- *  Ordering is deliberate: freeleech beats half- and quarter-leech (cheaper wins over a
- *  torrent somehow flagged both), and neutral overrides everything else — it means
- *  neither side counts, regardless of what else is set. */
+ *  Ordering is deliberate: freeleech beats half- and quarter-leech, and between those
+ *  two, the cheaper one wins over a torrent somehow flagged both (quarter overrides
+ *  half). Neutral overrides everything else — it means neither side counts, regardless
+ *  of what else is set. */
 export function factorsFor(f: Flags): { downloadFactor: number; uploadFactor: number } {
   let downloadFactor = 1;
-  if (f.isQuarterLeech) downloadFactor = 0.25;
   if (f.isHalfFreeleech) downloadFactor = 0.5;
+  if (f.isQuarterLeech) downloadFactor = 0.25;
   if (f.isFreeleech || f.isPersonalFreeleech) downloadFactor = 0;
 
   let uploadFactor = 1;

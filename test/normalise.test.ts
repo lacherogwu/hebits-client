@@ -101,6 +101,14 @@ test('factorsFor maps every flag combination the tracker uses', () => {
   expect(factorsFor({ ...base, isNeutralLeech: true })).toEqual({ downloadFactor: 0, uploadFactor: 0 });
 });
 
+test('factorsFor: the cheaper of half- and quarter-leech wins if a torrent is somehow flagged both', () => {
+  const base = {
+    isFreeleech: false, isHalfFreeleech: true, isQuarterLeech: true,
+    isNeutralLeech: false, isPersonalFreeleech: false, isUploadX2: false, isUploadX3: false,
+  };
+  expect(factorsFor(base).downloadFactor).toBe(0.25);
+});
+
 test('flattenGroups pushes group fields down onto every torrent', () => {
   const flat = flattenGroups(parsed.response.results);
   expect(flat.length).toBeGreaterThan(0);

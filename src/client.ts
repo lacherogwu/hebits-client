@@ -14,9 +14,11 @@ export interface AccountStats {
 }
 
 export interface BrowseOptions {
-  /** Free-text search. An IMDb id works here — it is what Jackett sends too. */
+  /** Free-text search. An IMDb id works here — it is what Jackett sends too. Ignored if
+   *  `imdb` is also set — see `imdb` below. */
   query?: string;
-  /** Convenience: sets `query` to this IMDb id. */
+  /** Convenience: sets `query` to this IMDb id. Takes precedence over `query`: passing
+   *  both silently discards `query`. */
   imdb?: string;
   /** Appended to the query; Gazelle has no season parameter. */
   season?: number;
