@@ -1,5 +1,5 @@
-import { ApiError } from './errors.js';
-import type { RawGroup, RawTorrent } from './schemas.js';
+import { ApiError } from './errors';
+import type { RawGroup, RawTorrent } from './schemas';
 
 /** One torrent, with its group's context folded in. This is the package's central type
  *  and the only shape consumers see. */

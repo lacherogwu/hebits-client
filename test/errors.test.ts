@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { ApiError, HebitsError, LoginExpiredError, NotATorrentError, RateLimitedError } from '../src/errors.js';
+import { ApiError, HebitsError, LoginExpiredError, NotATorrentError, RateLimitedError } from '../src/errors';
 
 test('every error is a HebitsError and an Error', () => {
   for (const e of [

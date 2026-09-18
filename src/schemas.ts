@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { ApiError } from './errors.js';
+import { ApiError } from './errors';
 
 /** A single torrent inside a group. Field types confirmed against the live API on
  *  2026-09-18: the is* flags really are booleans, and `time` really is an unzoned string.

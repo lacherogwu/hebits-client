@@ -2,8 +2,8 @@ import { readFileSync } from 'node:fs';
 import { afterAll, afterEach, beforeAll, expect, test } from 'vitest';
 import { http, HttpResponse } from 'msw';
 import { setupServer } from 'msw/node';
-import { Hebits } from '../src/client.js';
-import { NotATorrentError } from '../src/errors.js';
+import { Hebits } from '../src/client';
+import { NotATorrentError } from '../src/errors';
 
 const fx = (n: string) => readFileSync(new URL(`./fixtures/${n}`, import.meta.url), 'utf8');
 let lastUrl = '';

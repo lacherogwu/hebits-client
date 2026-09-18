@@ -1,6 +1,6 @@
 node_modules/
 dist/
-.tsup/
+.tsdown/
 .DS_Store
 *.log
 CLAUDE.local.md

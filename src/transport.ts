@@ -1,6 +1,6 @@
 import ky, { HTTPError, type KyInstance } from 'ky';
 import pThrottle from 'p-throttle';
-import { ApiError, LoginExpiredError, RateLimitedError } from './errors.js';
+import { ApiError, LoginExpiredError, RateLimitedError } from './errors';
 
 export interface TransportOptions {
   cookie: string;

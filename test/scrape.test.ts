@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { isLoggedIn, parseDailyDownloads } from '../src/scrape.js';
+import { isLoggedIn, parseDailyDownloads } from '../src/scrape';
 
 const fixture = readFileSync(new URL('./fixtures/user-daily.html', import.meta.url), 'utf8');
 

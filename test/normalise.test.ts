@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { browseResponseSchema, type RawGroup } from '../src/schemas.js';
-import { factorsFor, flattenGroups, imdbFromCatalogue, parseHebitsTime } from '../src/normalise.js';
-import { ApiError } from '../src/errors.js';
+import { browseResponseSchema, type RawGroup } from '../src/schemas';
+import { factorsFor, flattenGroups, imdbFromCatalogue, parseHebitsTime } from '../src/normalise';
+import { ApiError } from '../src/errors';
 
 const parsed = browseResponseSchema.parse(
   JSON.parse(readFileSync(new URL('./fixtures/browse-freeleech.json', import.meta.url), 'utf8')),

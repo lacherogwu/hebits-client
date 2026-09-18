@@ -1,8 +1,8 @@
-import { ApiError, LoginExpiredError, NotATorrentError } from './errors.js';
-import { flattenGroups, type HebitsTorrent } from './normalise.js';
-import { browseResponseSchema, indexResponseSchema, parseOrThrow } from './schemas.js';
-import { isLoggedIn, parseDailyDownloads } from './scrape.js';
-import { createTransport, type Transport, type TransportOptions } from './transport.js';
+import { ApiError, LoginExpiredError, NotATorrentError } from './errors';
+import { flattenGroups, type HebitsTorrent } from './normalise';
+import { browseResponseSchema, indexResponseSchema, parseOrThrow } from './schemas';
+import { isLoggedIn, parseDailyDownloads } from './scrape';
+import { createTransport, type Transport, type TransportOptions } from './transport';
 
 export interface AccountStats {
   userId: number;

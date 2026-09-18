@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { browseResponseSchema, indexResponseSchema, parseOrThrow } from '../src/schemas.js';
-import { ApiError } from '../src/errors.js';
+import { browseResponseSchema, indexResponseSchema, parseOrThrow } from '../src/schemas';
+import { ApiError } from '../src/errors';
 
 const fixture = (name: string) =>
   JSON.parse(readFileSync(new URL(`./fixtures/${name}`, import.meta.url), 'utf8'));
