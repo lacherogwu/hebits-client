@@ -1,0 +1,3918 @@
+{
+  "status": "success",
+  "response": {
+    "currentPage": 1,
+    "pages": 218,
+    "results": [
+      {
+        "groupId": 12038,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "השורד",
+        "groupNameAlt": "Arctic",
+        "artist": "",
+        "cover": "https://i.imgur.com/ZYMfY08.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות"
+        ],
+        "bookmarked": false,
+        "groupYear": 2018,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt6820256",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134377,
+            "release": "Arctic.2018.MULTI.2160p.WEBRip.DTS-HD.MA.5.1.x264-BLASPHEMY",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-18 16:41:13",
+            "size": 18923540058,
+            "snatches": 28,
+            "seeders": 24,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34855,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "מת לצעוק",
+        "groupNameAlt": "Scary Movie",
+        "artist": "",
+        "cover": "https://i.hebits.net/18496295d1144e49845ba5f0b5b749b7.jpg",
+        "tags": [
+          "אימה",
+          "קומדיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt32093575/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134376,
+            "release": "Scary.Movie.2026.2160p.UHD.BluRay.x265-SURCODE",
+            "artists": [
+              {
+                "id": 15416,
+                "name": "אנה פריס"
+              },
+              {
+                "id": 213,
+                "name": "אנתוני אנדרסון"
+              },
+              {
+                "id": 37197,
+                "name": "דיימון ואינז ג'וניור"
+              },
+              {
+                "id": 34667,
+                "name": "טייאנה טיילור"
+              },
+              {
+                "id": 8079,
+                "name": "כרמן אלקטרה"
+              },
+              {
+                "id": 6120,
+                "name": "לוקלין מונרו"
+              },
+              {
+                "id": 20006,
+                "name": "מייקל טידס"
+              },
+              {
+                "id": 37195,
+                "name": "מרלון ויינז"
+              },
+              {
+                "id": 25682,
+                "name": "סידני פארק"
+              },
+              {
+                "id": 37198,
+                "name": "קרייג ויינס"
+              },
+              {
+                "id": 1183,
+                "name": "רג'ינה הול"
+              },
+              {
+                "id": 37196,
+                "name": "שון ויינז"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-18 16:09:31",
+            "size": 28830577360,
+            "snatches": 36,
+            "seeders": 29,
+            "leechers": 2,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 22942,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "מפלצת: סיפורם של ג'פרי דאהמר / לייל ואריק מננדז / אד גין / ליזי בורדן",
+        "groupNameAlt": "Monster: The Jeffrey Dahmer Story / The Lyle and Erik Menendez Story / The Ed Gein Story / The Lizzie Borden Story",
+        "artist": "",
+        "cover": "https://i.hebits.net/fc791405a1cf4de2b1a10bea7ee0bd15.jpg",
+        "tags": [
+          "ביוגרפיה",
+          "דרמה",
+          "פשע"
+        ],
+        "bookmarked": false,
+        "groupYear": 2022,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt13207736",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134374,
+            "release": "Monster.S04.The.Lizzie.Borden.Story.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-CHORTLE",
+            "artists": [
+              {
+                "id": 2125,
+                "name": "אוון פיטרס"
+              },
+              {
+                "id": 26937,
+                "name": "איאן ברנן"
+              },
+              {
+                "id": 27873,
+                "name": "ניסי נאש-בטס"
+              },
+              {
+                "id": 12814,
+                "name": "ריאן מרפי"
+              },
+              {
+                "id": 27872,
+                "name": "ריצ׳רד ג׳נקינס"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 8,
+            "time": "2026-09-18 15:03:03",
+            "size": 58636201835,
+            "snatches": 17,
+            "seeders": 18,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 21885,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "משחקת באש",
+        "groupNameAlt": "Firestarter",
+        "artist": "",
+        "cover": "https://i.imgur.com/RRj4735.jpg",
+        "tags": [
+          "אימה",
+          "דרמה",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 2022,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt1798632",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134372,
+            "release": "Firestarter.2022.2160p.MA.WEB-DL.DDP5.1.HDR.H.265-HHWEB",
+            "artists": [
+              {
+                "id": 15969,
+                "name": "גלוריה ראובן"
+              },
+              {
+                "id": 1711,
+                "name": "זאק אפרון"
+              },
+              {
+                "id": 6185,
+                "name": "מייקל גרייאייס"
+              },
+              {
+                "id": 12375,
+                "name": "סטיבן קינג"
+              },
+              {
+                "id": 15968,
+                "name": "סידני למון"
+              },
+              {
+                "id": 12689,
+                "name": "סקוט טימס"
+              },
+              {
+                "id": 4872,
+                "name": "קורטווד סמית'"
+              },
+              {
+                "id": 15970,
+                "name": "קית תומאס"
+              },
+              {
+                "id": 12079,
+                "name": "ריאן קיירה ארמסטרונג"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2026-09-18 15:02:58",
+            "size": 17227031204,
+            "snatches": 12,
+            "seeders": 13,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 3508,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "דרגון בול זי",
+        "groupNameAlt": "Dragon Ball Z",
+        "artist": "",
+        "cover": "https://i.imgur.com/BQTJ3Bi.jpg",
+        "tags": [
+          "אנימציה",
+          "הרפתקאות",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 1996,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0214341",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134370,
+            "release": "Dragon.Ball.Z.S09.1080p.BluRay.HebDub.AAC2.0.H.264-HBRW",
+            "artists": [
+              {
+                "id": 24900,
+                "name": "אבי מאיר וענונו"
+              },
+              {
+                "id": 24902,
+                "name": "אורי הר-לב"
+              },
+              {
+                "id": 17402,
+                "name": "אורלי קטן"
+              },
+              {
+                "id": 24899,
+                "name": "אקירה טורייאמה"
+              },
+              {
+                "id": 19847,
+                "name": "גיורא קנת"
+              },
+              {
+                "id": 24896,
+                "name": "דוק האריס"
+              },
+              {
+                "id": 24898,
+                "name": "טאקו קויאמה"
+              },
+              {
+                "id": 24903,
+                "name": "ינון כהן"
+              },
+              {
+                "id": 24897,
+                "name": "כריסטופר סאבט"
+              },
+              {
+                "id": 9350,
+                "name": "לירון לב"
+              },
+              {
+                "id": 24901,
+                "name": "מתן בלו"
+              },
+              {
+                "id": 24895,
+                "name": "סקוט מק'ניל"
+              },
+              {
+                "id": 5353,
+                "name": "עמי מנדלמן"
+              },
+              {
+                "id": 12232,
+                "name": "עפרון אטקין"
+              },
+              {
+                "id": 5354,
+                "name": "צביקה שוורצברג"
+              },
+              {
+                "id": 24905,
+                "name": "תומר גלר"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "מדובב",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 38,
+            "time": "2026-09-18 14:04:31",
+            "size": 88943812651,
+            "snatches": 23,
+            "seeders": 22,
+            "leechers": 3,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35298,
+        "categoryID": 5,
+        "categoryName": "Games",
+        "groupName": "Dune: Awakening",
+        "groupNameAlt": "",
+        "artist": "",
+        "cover": "https://imageservice.torrentleech.org/images/torrentleech/covers/320437aae6c1645851185182c9fc64589b853fbb-large.jpg",
+        "tags": [
+          "rpg",
+          "adventure",
+          "scifi",
+          "exploration",
+          "open.world",
+          "survival",
+          "base.building"
+        ],
+        "bookmarked": false,
+        "groupYear": 2025,
+        "groupTime": null,
+        "catalogue": "",
+        "studio": "",
+        "series": "Minimum:[*]Requires a 64-bit processor and operating system\r\n[*]OS: Windows 10 64-bit (or newer)\r\n[*]Processor: Intel Core i5-7400 / AMD Ryzen 3 1200\r\n[*]Memory: 16 GB RAM\r\n[*]Graphics: NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon 5600XT (6 GB)\r\n[*]DirectX: Version 12\r\n[*]Network: Broadband Internet connection\r\n[*]Storage: 60 GB available space\r\n[*]Additional Notes: SSD required\r\n\r\nRecommended:[*]Requires a 64-bit processor and operating system\r\n[*]OS: Windows 10 64-bit (or newer)\r\n[*]Processor: Intel Core i7-10700K / AMD Ryzen 5 2600X\r\n[*]Memory: 16 GB RAM\r\n[*]Graphics: NVIDIA GeForce RTX 3070 (8 GB) / AMD Radeon 6700XT (12 GB)\r\n[*]DirectX: Version 12\r\n[*]Network: Broadband Internet connection\r\n[*]Storage: 75 GB available space\r\n[*]Additional Notes: NVMe required",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134368,
+            "release": "Dune.Awakening-RUNE",
+            "artists": [],
+            "container": "ISO",
+            "codec": "",
+            "resolution": "",
+            "audio": "",
+            "subbing": "",
+            "isForinge": true,
+            "language": null,
+            "archive": "RAR-Scene",
+            "fileCount": 159,
+            "time": "2026-09-18 09:23:34",
+            "size": 39144577146,
+            "snatches": 15,
+            "seeders": 15,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 25857,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "הנעלים האדומות",
+        "groupNameAlt": "The Red Shoes",
+        "artist": "",
+        "cover": "https://i.hebits.net/75ab4f8a5c41458bbc5c1fb43080efcf.jpg",
+        "tags": [
+          "דרמה",
+          "מוזיקלי",
+          "רומנטי"
+        ],
+        "bookmarked": false,
+        "groupYear": 1948,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0040725/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134357,
+            "release": "The Red Shoes 1948 1080p BluRay DD1.0 x264-CtrlHD",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-18 01:18:12",
+            "size": 16446739350,
+            "snatches": 17,
+            "seeders": 17,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 17590,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "אכפת לי",
+        "groupNameAlt": "I Care a Lot",
+        "artist": "רוזמונד פייק, פיטר דינקלג', אייזה גונזלס",
+        "cover": "https://i.imgur.com/2DJIsI1.jpg",
+        "tags": [
+          "פשע",
+          "קומדיה",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 2020,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt9893250",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134356,
+            "release": "I.Care.a.Lot.2021.2160p.NF.WEB-DL.DDP5.1.DV.HDR.HEVC-XEBEC",
+            "artists": [
+              {
+                "id": 199,
+                "name": "אייזה גונזלס"
+              },
+              {
+                "id": 4054,
+                "name": "פיטר דינקלג'"
+              },
+              {
+                "id": 2402,
+                "name": "רוזמונד פייק"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-18 01:18:10",
+            "size": 17377024617,
+            "snatches": 13,
+            "seeders": 14,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 27866,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "המשטר",
+        "groupNameAlt": "The Regime",
+        "artist": "",
+        "cover": "https://i.ibb.co/L0m4WB0/1c46b0be0e67a8ada1c5141f649d841f.jpg",
+        "tags": [
+          "דרמה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2024,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt21375036/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134355,
+            "release": "The.Regime.S01.2160p.MAX.WEB-DL.DDP5.1.HDR.DoVi.x265-NTb",
+            "artists": [
+              {
+                "id": 1459,
+                "name": "אנדריאה רייזבורו"
+              },
+              {
+                "id": 28435,
+                "name": "גיום גאליין"
+              },
+              {
+                "id": 23543,
+                "name": "דונלד סייג' מקיי"
+              },
+              {
+                "id": 2863,
+                "name": "יו גרנט"
+              },
+              {
+                "id": 29218,
+                "name": "לואי מינט"
+              },
+              {
+                "id": 29219,
+                "name": "מייקל קולגן"
+              },
+              {
+                "id": 2627,
+                "name": "מרתה פלימפטון"
+              },
+              {
+                "id": 1728,
+                "name": "מתיאס שונירטס"
+              },
+              {
+                "id": 23754,
+                "name": "ניקיטה צ'דהא"
+              },
+              {
+                "id": 8736,
+                "name": "קארל מרקוביץ'"
+              },
+              {
+                "id": 887,
+                "name": "קייט ווינסלט"
+              },
+              {
+                "id": 4476,
+                "name": "רורי קינן"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 12,
+            "time": "2026-09-18 01:18:09",
+            "size": 53821219853,
+            "snatches": 10,
+            "seeders": 11,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34378,
+        "categoryID": 5,
+        "categoryName": "Games",
+        "groupName": "Forza Horizon 6",
+        "groupNameAlt": "",
+        "artist": "",
+        "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/3c05b21ad51cf3b20c6dc521dcffe93646c7e50d/page_bg_raw.jpg",
+        "tags": [
+          "עולם.פתוח",
+          "מירוצים"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "",
+        "studio": "",
+        "series": "[b][u]Minimum[/u][/b]:\r\n[*]Requires a 64-bit processor and operating system\r\n[*]OS: Windows 10 22H2 (version 19045) or higher\r\n[*]Processor: Intel i5-8400 OR AMD Ryzen 5 1600\r\n[*]Memory: 16 GB RAM\r\n[*]Graphics: Nvidia GTX 1650 OR AMD RX 6500 XT OR Intel Arc A380\r\n[*]DirectX: Version 12\r\n[*]Network: Broadband Internet connection\r\n[*]Storage: 167 GB available space\r\n[*]Additional Notes: SSD Required\r\n[b][u]Recommended[/u][/b]:\r\n[*]Requires a 64-bit processor and operating system\r\n[*]OS: Windows 10 22H2 (version 19045) or higher\r\n[*]Processor: Intel i5-12400F OR AMD Ryzen 5 5600X\r\n[*]Memory: 16 GB RAM\r\n[*]Graphics: NVIDIA RTX 3060 Ti OR AMD RX 6700 XT OR Intel Arc A580\r\n[*]DirectX: Version 12\r\n[*]Network: Broadband Internet connection\r\n[*]Storage: 167 GB available space\r\n[*]Additional Notes: SSD Required",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134350,
+            "release": "Forza.Horizon.6.v440.853-RUNE",
+            "artists": [],
+            "container": "ISO",
+            "codec": "",
+            "resolution": "",
+            "audio": "",
+            "subbing": "",
+            "isForinge": true,
+            "language": null,
+            "archive": "RAR-Scene",
+            "fileCount": 590,
+            "time": "2026-09-17 22:53:52",
+            "size": 146946078924,
+            "snatches": 20,
+            "seeders": 18,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35293,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "ג'ון פרנהאם: למצוא את הקול",
+        "groupNameAlt": "John Farnham: Finding the Voice",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BZTI2YWQyMDAtMzY3Mi00ZmE3LWE3MGQtNDY4OTczY2JmMTczXkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "ביוגרפיה",
+          "דוקומנטרי",
+          "מוזיקלי"
+        ],
+        "bookmarked": false,
+        "groupYear": 2023,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt27671478/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134347,
+            "release": "John.Farnham.Finding.the.Voice.2023.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-BLURANiUM",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-17 20:15:29",
+            "size": 18083309008,
+            "snatches": 7,
+            "seeders": 7,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34135,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "דברים מוזרים: סיפורים מ-85",
+        "groupNameAlt": "Stranger Things Tales From '85",
+        "artist": "",
+        "cover": "https://www.ktuvit.me/Content/Films/1a1b63a4-3a40-4866-ad96-972b3b347531/Images/thumb.jpg",
+        "tags": [
+          "אנימציה",
+          "דרמה",
+          "פנטזיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt27486290",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134346,
+            "release": "Stranger.Things.Tales.From.85.S02.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-XEBEC",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 8,
+            "time": "2026-09-17 19:07:06",
+            "size": 33614024867,
+            "snatches": 11,
+            "seeders": 11,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 24854,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "וויל טרנט",
+        "groupNameAlt": "Will Trent",
+        "artist": "",
+        "cover": "https://i.ibb.co/ZRrBnmZ/6f276fa98562fe8f038a75ada33d2649.jpg",
+        "tags": [
+          "דרמה",
+          "פשע"
+        ],
+        "bookmarked": false,
+        "groupYear": 2023,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt17543592/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134332,
+            "release": "Will.Trent.S04.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb",
+            "artists": [
+              {
+                "id": 26239,
+                "name": "איאנתה ריצ'רדסון"
+              },
+              {
+                "id": 26243,
+                "name": "אריקה קריסטנסן"
+              },
+              {
+                "id": 26241,
+                "name": "דניאל ט. תומסן"
+              },
+              {
+                "id": 26240,
+                "name": "ליז הלדנס"
+              },
+              {
+                "id": 26242,
+                "name": "ראמון רודריגז"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 36,
+            "time": "2026-09-17 02:13:50",
+            "size": 58267033694,
+            "snatches": 18,
+            "seeders": 17,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 2884,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "אלאדין ומלך הגנבים",
+        "groupNameAlt": "Aladdin and the King of Thieves",
+        "artist": "",
+        "cover": "https://i.imgur.com/pAT43J2.jpg",
+        "tags": [
+          "אנימציה",
+          "הרפתקאות",
+          "משפחה"
+        ],
+        "bookmarked": false,
+        "groupYear": 1996,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0115491",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134328,
+            "release": "Aladdin.and.the.King.of.Thieves.1996.1080p.REMUX.AVC.DTS-HD.MA 5.1-playBD",
+            "artists": [
+              {
+                "id": 5271,
+                "name": "אלון אופיר"
+              },
+              {
+                "id": 15691,
+                "name": "ג'ון ריס-דייוויס"
+              },
+              {
+                "id": 12225,
+                "name": "טאד סטונס"
+              },
+              {
+                "id": 801,
+                "name": "טוביה צפיר"
+              },
+              {
+                "id": 12228,
+                "name": "מארק מקקורקל"
+              },
+              {
+                "id": 8241,
+                "name": "מומי לוי"
+              },
+              {
+                "id": 15287,
+                "name": "סקוט ויינגר"
+              },
+              {
+                "id": 17554,
+                "name": "רובין ויליאמס"
+              },
+              {
+                "id": 12200,
+                "name": "רמה מסינגר"
+              },
+              {
+                "id": 633,
+                "name": "ששי קשת"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-17 00:56:32",
+            "size": 19492886413,
+            "snatches": 22,
+            "seeders": 23,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 21031,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "ריצ’ר",
+        "groupNameAlt": "Reacher",
+        "artist": "",
+        "cover": "https://i.hebits.net/e37c43f962064ea1bf3c3b5cdcd4ef47.jpg",
+        "tags": [
+          "דרמה",
+          "פשע",
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2022,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt9288030",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134322,
+            "release": "Reacher.S04.2160p.AMZN.WEB-DL.DDP5.1.DV.HDR.H.265-NTb",
+            "artists": [
+              {
+                "id": 6504,
+                "name": "אלן ריצ'סון"
+              },
+              {
+                "id": 33756,
+                "name": "ברוס מקגיל"
+              },
+              {
+                "id": 13585,
+                "name": "ווילה פיצ'גרלד"
+              },
+              {
+                "id": 20102,
+                "name": "לי צ'יילד"
+              },
+              {
+                "id": 7300,
+                "name": "מלקולם גודווין"
+              },
+              {
+                "id": 22852,
+                "name": "מקסוול ג'נקינס"
+              },
+              {
+                "id": 13491,
+                "name": "ניק סנטורה"
+              },
+              {
+                "id": 12832,
+                "name": "קריסטין קרוק"
+              },
+              {
+                "id": 33757,
+                "name": "תומאס וינסנט"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 16,
+            "time": "2026-09-16 22:59:02",
+            "size": 52508070157,
+            "snatches": 53,
+            "seeders": 49,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35286,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "טקילה סאנרייז",
+        "groupNameAlt": "Tequila Sunrise",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BZWYyYzA5MDMtM2Q4OC00MmVlLWE0MjgtNzQ2NGZlMzAzNGIyXkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "דרמה",
+          "פשע",
+          "מותחן",
+          "רומנטי"
+        ],
+        "bookmarked": false,
+        "groupYear": 1988,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt0096244/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134301,
+            "release": "Tequila.Sunrise.1988.BluRay.1080p.DTS-HD.MA.2.0.AVC.REMUX-FraMeSToR",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-16 14:05:37",
+            "size": 19420971317,
+            "snatches": 18,
+            "seeders": 17,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35284,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "נילי",
+        "groupNameAlt": "Neagley",
+        "artist": "",
+        "cover": "https://i.hebits.net/255701169a204bdf85f7cc541504bd9a.webp",
+        "tags": [
+          "דרמה",
+          "פשע",
+          "מסתורין",
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt33539520/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134296,
+            "release": "Neagley.2026.S01.2160p.AMZN.WEB-DL.DDP5.1.Atmos.DV.HDR10Plus.H.265-KRATOS",
+            "artists": [
+              {
+                "id": 25026,
+                "name": "אדליין רודולף"
+              },
+              {
+                "id": 8512,
+                "name": "גרייסטון הולט"
+              },
+              {
+                "id": 37669,
+                "name": "מריה סטן"
+              },
+              {
+                "id": 13491,
+                "name": "ניק סנטורה"
+              },
+              {
+                "id": 37668,
+                "name": "ניקולס ווטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 8,
+            "time": "2026-09-16 11:47:03",
+            "size": 43024201438,
+            "snatches": 52,
+            "seeders": 49,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 16534,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "במקום בו צומחת תקווה",
+        "groupNameAlt": "Where Hope Grows",
+        "artist": "",
+        "cover": "https://i.hebits.net/f91cf17bfb8a421da0390ad9248bc2e2.jpg",
+        "tags": [
+          "דרמה",
+          "משפחה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2014,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt3200980/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134287,
+            "release": "Where.Hope.Grows.2014.BluRay.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-16 05:01:13",
+            "size": 17075421416,
+            "snatches": 14,
+            "seeders": 15,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35135,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "מוות אכזרי אש",
+        "groupNameAlt": "Evil Dead Burn",
+        "artist": "",
+        "cover": "https://image.tmdb.org/t/p/original/tsu5ddKN2lRHZTBP152fQBLHSTu.jpg",
+        "tags": [
+          "אימה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt31170389/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134283,
+            "release": "Evil.Dead.Burn.2026.2160p.UHD.BluRay.x265-SURCODE",
+            "artists": [
+              {
+                "id": 19362,
+                "name": "אלין צ'אבט"
+              },
+              {
+                "id": 37538,
+                "name": "ארול שנד"
+              },
+              {
+                "id": 1635,
+                "name": "ברוס קמפבל"
+              },
+              {
+                "id": 29333,
+                "name": "ג'ורג' פולאר"
+              },
+              {
+                "id": 37542,
+                "name": "גרטה ונדן ברינק"
+              },
+              {
+                "id": 37540,
+                "name": "האנטר דווהאן"
+              },
+              {
+                "id": 17955,
+                "name": "טנדי רייט"
+              },
+              {
+                "id": 37539,
+                "name": "לוסיאני ביוקנן"
+              },
+              {
+                "id": 37541,
+                "name": "מוד דייוי"
+              },
+              {
+                "id": 37543,
+                "name": "מייקל הרסט"
+              },
+              {
+                "id": 37544,
+                "name": "סבסטיאן ואניצ'ק"
+              },
+              {
+                "id": 37537,
+                "name": "סוהילה יעקוב"
+              },
+              {
+                "id": 12319,
+                "name": "סם ריימי"
+              },
+              {
+                "id": 37556,
+                "name": "פלורן ברנאר"
+              },
+              {
+                "id": 35343,
+                "name": "רוברט טאפרט"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-16 01:55:38",
+            "size": 32089468529,
+            "snatches": 18,
+            "seeders": 14,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35282,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "בחזרה לאי של נים",
+        "groupNameAlt": "Return to Nim's Island",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjIzNDg1OTM4N15BMl5BanBnXkFtZTcwNTk3MDc5OA@@._V1_FMjpg_UX1000_.jpg",
+        "tags": [
+          "הרפתקאות",
+          "משפחה",
+          "פנטזיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2013,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt2221648/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134281,
+            "release": "Return.to.Nims.Island.2013.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-SPHD",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-16 01:20:07",
+            "size": 16545286696,
+            "snatches": 13,
+            "seeders": 13,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 5828,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "האי של נים",
+        "groupNameAlt": "Nim's Island",
+        "artist": "",
+        "cover": "https://i.hebits.net/d766becd4bf54c0295c1069cc395bead.jpg",
+        "tags": [
+          "הרפתקאות",
+          "משפחה",
+          "פנטזיה",
+          "קומדיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2008,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt0410377/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134280,
+            "release": "Nim's.Island.2008.BluRay.1080p.DTS-HD.MA.5.1.AVC.REMUX-FraMeSToR",
+            "artists": [
+              {
+                "id": 1236,
+                "name": "אביגיל ברסלין"
+              },
+              {
+                "id": 8260,
+                "name": "אלפונסו מק'אולי"
+              },
+              {
+                "id": 3410,
+                "name": "אסף קורמן"
+              },
+              {
+                "id": 5119,
+                "name": "ג'ודי פוסטר"
+              },
+              {
+                "id": 33878,
+                "name": "ג'וזף קווונג"
+              },
+              {
+                "id": 14739,
+                "name": "ג'ניפר פלאקט"
+              },
+              {
+                "id": 4746,
+                "name": "ג'ררד באטלר"
+              },
+              {
+                "id": 797,
+                "name": "דביר בנדק"
+              },
+              {
+                "id": 20722,
+                "name": "מארק לוין"
+              },
+              {
+                "id": 1717,
+                "name": "מיקי לאון"
+              },
+              {
+                "id": 33879,
+                "name": "פאולה מזור"
+              },
+              {
+                "id": 1010,
+                "name": "שירה נאור"
+              },
+              {
+                "id": 24296,
+                "name": "שרית וינו אלעד"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-16 01:20:04",
+            "size": 30482234514,
+            "snatches": 10,
+            "seeders": 9,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 16943,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "ראיון עם הערפד: זיכרונותיו של ערפד",
+        "groupNameAlt": "Interview with the Vampire: The Vampire Chronicles",
+        "artist": "",
+        "cover": "https://i.hebits.net/6782c7f654f4466e9f6e81262b5791d7.jpg",
+        "tags": [
+          "אימה",
+          "דרמה",
+          "פנטזיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 1994,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0110148",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134278,
+            "release": "Interview.with.the.Vampire.1994.2160p.UHD.BluRay.DTS-HD.MA.5.1.DV.HDR.x265-RandomBytes",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2026-09-16 00:55:00",
+            "size": 53482114655,
+            "snatches": 19,
+            "seeders": 18,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 14228,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "המהמר",
+        "groupNameAlt": "The Gambler",
+        "artist": "",
+        "cover": "https://i.imgur.com/FnsLmWZ.jpg",
+        "tags": [
+          "דרמה",
+          "פשע"
+        ],
+        "bookmarked": false,
+        "groupYear": 1974,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0071532/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134272,
+            "release": "The.Gambler.1974.1080p.BluRay.FLAC1.0.x264-ZoroSenpai",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 21:11:01",
+            "size": 20005952836,
+            "snatches": 14,
+            "seeders": 15,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34772,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "הנוסע",
+        "groupNameAlt": "Passenger",
+        "artist": "",
+        "cover": "https://image.tmdb.org/t/p/original/k8SuFqBdCCtkQ7T8Qd9Cjf7DTRq.jpg",
+        "tags": [
+          "אימה",
+          "הרפתקאות",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt33763941/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134271,
+            "release": "Passenger.2026.BluRay.1080p.TrueHD.Atmos.7.1.AVC.REMUX-FraMeSToR",
+            "artists": [
+              {
+                "id": 25959,
+                "name": "אנדרה אוברדל"
+              },
+              {
+                "id": 4710,
+                "name": "ג'ייקוב סיפיו"
+              },
+              {
+                "id": 37106,
+                "name": "ג'סיקה קרוז"
+              },
+              {
+                "id": 12789,
+                "name": "גארי דאוברמן"
+              },
+              {
+                "id": 37120,
+                "name": "וולטר האמאדה"
+              },
+              {
+                "id": 37108,
+                "name": "זאכרי דונוהו"
+              },
+              {
+                "id": 37109,
+                "name": "ט. ו. ברג'ס"
+              },
+              {
+                "id": 12745,
+                "name": "לואו לובל"
+              },
+              {
+                "id": 37107,
+                "name": "מיילס פאולר"
+              },
+              {
+                "id": 13755,
+                "name": "מליסה לאו"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 17:16:19",
+            "size": 26541132487,
+            "snatches": 20,
+            "seeders": 18,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35156,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "סופרגירל",
+        "groupNameAlt": "Supergirl",
+        "artist": "",
+        "cover": "https://i.hebits.net/d6bfad6a34ef4ac1866fa35d33f34ac7.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt8814476/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134270,
+            "release": "Supergirl 2026 1080p BluRay REMUX AVC Atmos-TRiToN",
+            "artists": [
+              {
+                "id": 22972,
+                "name": "איב רידלי"
+              },
+              {
+                "id": 8805,
+                "name": "אמילי ביצ'ם"
+              },
+              {
+                "id": 37579,
+                "name": "אנה נוגיירה"
+              },
+              {
+                "id": 37578,
+                "name": "בילקיס אוולי"
+              },
+              {
+                "id": 14677,
+                "name": "ג'ו שוסטר"
+              },
+              {
+                "id": 5972,
+                "name": "ג'יימס גאן"
+              },
+              {
+                "id": 174,
+                "name": "ג'ייסון מומואה"
+              },
+              {
+                "id": 14515,
+                "name": "ג'רי סיגל"
+              },
+              {
+                "id": 30324,
+                "name": "דייוויד קרומהולץ"
+              },
+              {
+                "id": 37577,
+                "name": "טום קינג"
+              },
+              {
+                "id": 23313,
+                "name": "מילי אלקוק"
+              },
+              {
+                "id": 37580,
+                "name": "מתיאס סכונארטס"
+              },
+              {
+                "id": 19679,
+                "name": "פיטר ספרן"
+              },
+              {
+                "id": 4853,
+                "name": "קרייג גילספי"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 17:16:17",
+            "size": 21761142159,
+            "snatches": 17,
+            "seeders": 17,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35281,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "התעוררות האמונה",
+        "groupNameAlt": "A Great Awakening",
+        "artist": "",
+        "cover": "https://i.hebits.net/3221567d52ed4d229a2316ec620323ea.jpg",
+        "tags": [
+          "דרמה",
+          "הסטוריה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt33305882/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134268,
+            "release": "A.Great.Awakening.2026.2160p.iT.WEB-DL.DDP5.1.DV.HDR.H.265-LiVED",
+            "artists": [
+              {
+                "id": 37655,
+                "name": "ג'ואי דיגנוטי"
+              },
+              {
+                "id": 37651,
+                "name": "ג'ושוע אנק"
+              },
+              {
+                "id": 37654,
+                "name": "ג׳ון פול סניד"
+              },
+              {
+                "id": 37652,
+                "name": "ג׳ונת׳ן בלייר"
+              },
+              {
+                "id": 37653,
+                "name": "ג׳וש בייטס"
+              },
+              {
+                "id": 37656,
+                "name": "הנרי וואט"
+              },
+              {
+                "id": 24656,
+                "name": "כריס נלסון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 16:25:08",
+            "size": 24570623644,
+            "snatches": 16,
+            "seeders": 16,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35280,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "גייל דוטרי ורשימת הסלבריטאים",
+        "groupNameAlt": "Gail Daughtry and the Celebrity Sex Pass",
+        "artist": "",
+        "cover": "https://i.hebits.net/da3293a49ebb461bb6358bc2ca22ceae.jpg",
+        "tags": [
+          "קומדיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt36834010/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134265,
+            "release": "Gail.Daughtry.and.the.Celebrity.Sex.Pass.2026.2160p.iT.WEB-DL.DDP5.1.DV.HDR.H.265-SCOPE",
+            "artists": [
+              {
+                "id": 37648,
+                "name": "\"וירד אל\" ינקוביק"
+              },
+              {
+                "id": 18503,
+                "name": "אליזבת בנקס"
+              },
+              {
+                "id": 37647,
+                "name": "ג'ו לו טרוליו"
+              },
+              {
+                "id": 2417,
+                "name": "ג'ון האם"
+              },
+              {
+                "id": 365,
+                "name": "ג'ון סלאטרי"
+              },
+              {
+                "id": 115,
+                "name": "ג'ניפר אניסטון"
+              },
+              {
+                "id": 37650,
+                "name": "דייויד ויין"
+              },
+              {
+                "id": 37143,
+                "name": "הנרי וינקלר"
+              },
+              {
+                "id": 2996,
+                "name": "זואי דויטש"
+              },
+              {
+                "id": 2905,
+                "name": "טובי האס"
+              },
+              {
+                "id": 37646,
+                "name": "מאת'ר ציקל"
+              },
+              {
+                "id": 18903,
+                "name": "מייקל קאסידי"
+              },
+              {
+                "id": 358,
+                "name": "פול ראד"
+              },
+              {
+                "id": 20443,
+                "name": "פן ג'ילט"
+              },
+              {
+                "id": 814,
+                "name": "קן מרינו"
+              },
+              {
+                "id": 37649,
+                "name": "קרי קני-סילבר"
+              },
+              {
+                "id": 12038,
+                "name": "ריצ'רד קינד"
+              },
+              {
+                "id": 2581,
+                "name": "תומאס לנון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 16:17:05",
+            "size": 17313534729,
+            "snatches": 20,
+            "seeders": 19,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35278,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "חופשת אמצע החורף",
+        "groupNameAlt": "Midwinter Break",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjdhYjkzOTMtYWZmMS00YWEyLWFkNDgtNWFlMzZhNGMzNDM2XkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "דרמה",
+          "רומנטי"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt7374950/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134262,
+            "release": "Midwinter.Break.2026.1080p.Bluray.Remux.AVC.DTS-HD.MA5.1-PTP",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 16:10:31",
+            "size": 19808674167,
+            "snatches": 16,
+            "seeders": 15,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34160,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "מזכרת ממנו",
+        "groupNameAlt": "Reminders of Him",
+        "artist": "",
+        "cover": "https://i.hebits.net/0b25b7b6a0ce4079b84fb87767c5c8e9.jpg",
+        "tags": [
+          "דרמה",
+          "רומנטי"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt33714084/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134261,
+            "release": "Reminders.of.Him.2026.BluRay.1080p.TrueHD.7.1.AVC.REMUX-FraMeSToR",
+            "artists": [
+              {
+                "id": 32986,
+                "name": "בראדלי ויטפורד"
+              },
+              {
+                "id": 36619,
+                "name": "ונסה קאזוויל"
+              },
+              {
+                "id": 34457,
+                "name": "טייריק וית'רס"
+              },
+              {
+                "id": 17485,
+                "name": "לורן גרהאם"
+              },
+              {
+                "id": 36620,
+                "name": "לורן לוין"
+              },
+              {
+                "id": 36621,
+                "name": "לייני וילסון"
+              },
+              {
+                "id": 7775,
+                "name": "מייקה מונרו"
+              },
+              {
+                "id": 24801,
+                "name": "קולין הובר"
+              },
+              {
+                "id": 15559,
+                "name": "רודי פאנקו"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 16:00:39",
+            "size": 30667667751,
+            "snatches": 20,
+            "seeders": 18,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35277,
+        "categoryID": 5,
+        "categoryName": "Games",
+        "groupName": "iRacing Studios NASCAR 26",
+        "groupNameAlt": "",
+        "artist": "",
+        "cover": "https://iracingstudios.com/wp-content/uploads/2026/06/nascar26-cover-art.jpg",
+        "tags": [
+          "simulation",
+          "racing",
+          "sports"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "",
+        "studio": "",
+        "series": "Minimum:\r\nRequires a 64-bit processor and operating system\r\nOS: Windows 10 64-Bit, Windows 11 64-Bit\r\nProcessor: 4 core CPU or better &ndash; Some examples (but not limited to): AMD FX-6300, Intel Core i5-4430, Intel Core i5-2320, AMD Ryzen 3 1200\r\nMemory: 16 GB RAM\r\nGraphics: A gaming graphics card with at least 4GB of DEDICATED memory &ndash; Some examples (but not limited to): Nvidia GeForce GTX 1060 or AMD Radeon 570 or better\r\nDirectX: Version 12\r\nNetwork: Broadband Internet connection\r\nStorage: 65 GB available space\r\nAdditional Notes: A physical PC running windows is required. A PC emulation on a MAC or other types of Virtual Machines are not supported.\r\n\r\n\r\nRecommended:\r\nRequires a 64-bit processor and operating system\r\nOS: Windows 10 64-Bit, Windows 11 64-Bit\r\nProcessor: 8 core or more CPU (some examples but not limited to: Intel Core 9-10980XE @ 3.0GHz, Intel Core i9-9900KS @ 4.00GHz, AMD Ryzen 9 3900X, or AMD Ryzen 9 3950X)\r\nMemory: 32 GB RAM\r\nGraphics: Gaming graphics card with at least 8GB of DEDICATED memory (some examples but not limited to Nvidia 2080 TI or AMD Radeon VII)\r\nDirectX: Version 12\r\nNetwork: Broadband Internet connection\r\nStorage: 100 GB available space",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134259,
+            "release": "iRacing.Studios.NASCAR.26-RUNE",
+            "artists": [],
+            "container": "ISO",
+            "codec": "",
+            "resolution": "",
+            "audio": "",
+            "subbing": "",
+            "isForinge": true,
+            "language": null,
+            "archive": "RAR-Scene",
+            "fileCount": 245,
+            "time": "2026-09-15 14:47:07",
+            "size": 60683485623,
+            "snatches": 11,
+            "seeders": 9,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35103,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "וושינגטון הצעיר",
+        "groupNameAlt": "Young Washington",
+        "artist": "",
+        "cover": "https://i.hebits.net/68859d09828949e2affc0328b9b292ed.jpg",
+        "tags": [
+          "ביוגרפיה",
+          "הרפתקאות",
+          "מלחמה",
+          "פעולה",
+          "הסטוריה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt32104007/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134250,
+            "release": "Young Washington 2026 1080p Blu-ray Remux AVC DD 5 1-HDT",
+            "artists": [
+              {
+                "id": 12994,
+                "name": "אנדי סירקיס"
+              },
+              {
+                "id": 2396,
+                "name": "בן קינגסלי"
+              },
+              {
+                "id": 26386,
+                "name": "ג'ון ארווין"
+              },
+              {
+                "id": 37678,
+                "name": "דידריק הוגסטראטן"
+              },
+              {
+                "id": 37675,
+                "name": "ויליאם פרנקלין מילר"
+              },
+              {
+                "id": 37677,
+                "name": "טום פרובו"
+              },
+              {
+                "id": 37676,
+                "name": "מאי לואיז פרקר"
+              },
+              {
+                "id": 6889,
+                "name": "קלסי גרמר"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 04:30:17",
+            "size": 22800790744,
+            "snatches": 26,
+            "seeders": 23,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 4515,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "בית הקלפים",
+        "groupNameAlt": "House of Cards",
+        "artist": "",
+        "cover": "https://i.ibb.co/QmkJrjq/b0c2f1f328dc38237fbc3d1aadc1b05a.jpg",
+        "tags": [
+          "דרמה",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 2013,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt1856010",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134248,
+            "release": "House.of.Cards.S06.2160p.NF.WEB-DL.DDP5.1.H.265-CRFW",
+            "artists": [
+              {
+                "id": 14820,
+                "name": "אנדרו דוויס"
+              },
+              {
+                "id": 13806,
+                "name": "אריק רות'"
+              },
+              {
+                "id": 14818,
+                "name": "בו וילימון"
+              },
+              {
+                "id": 14822,
+                "name": "ג'ון מלפי"
+              },
+              {
+                "id": 14823,
+                "name": "ג'ושוע דונן"
+              },
+              {
+                "id": 14828,
+                "name": "ג'ינה ג'יאנפרידו"
+              },
+              {
+                "id": 14824,
+                "name": "דייוויד פינצ'ר"
+              },
+              {
+                "id": 14821,
+                "name": "דנה ברונטי"
+              },
+              {
+                "id": 5658,
+                "name": "מהרשלה עלי"
+              },
+              {
+                "id": 14830,
+                "name": "מייקל גיל"
+              },
+              {
+                "id": 14819,
+                "name": "מייקל דובס"
+              },
+              {
+                "id": 7185,
+                "name": "מייקל קלי"
+              },
+              {
+                "id": 14826,
+                "name": "סם פורמן"
+              },
+              {
+                "id": 1103,
+                "name": "קווין ספייסי"
+              },
+              {
+                "id": 360,
+                "name": "קורי סטול"
+              },
+              {
+                "id": 14829,
+                "name": "קייט בארנו"
+              },
+              {
+                "id": 856,
+                "name": "קייט מארה"
+              },
+              {
+                "id": 192,
+                "name": "רובין רייט"
+              },
+              {
+                "id": 13978,
+                "name": "רייצ'ל ברוסנהאן"
+              },
+              {
+                "id": 14825,
+                "name": "ריק קליבלנד"
+              },
+              {
+                "id": 14827,
+                "name": "שרה טרים"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 8,
+            "time": "2026-09-15 03:46:47",
+            "size": 40721883215,
+            "snatches": 10,
+            "seeders": 10,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34796,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "האזרח הנוקם",
+        "groupNameAlt": "Citizen Vigilante",
+        "artist": "",
+        "cover": "https://i.hebits.net/e3ab43a47ddd45c2b9c5f523333f5301.png",
+        "tags": [
+          "פשע",
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt35309713/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134243,
+            "release": "Citizen Vigilante 2026 1080p Remux AVC DTS-HD MA 5 1-playBD",
+            "artists": [
+              {
+                "id": 37111,
+                "name": "אווה בול"
+              },
+              {
+                "id": 3894,
+                "name": "ארמי האמר"
+              },
+              {
+                "id": 37115,
+                "name": "דזירה ג׳ורג׳טי"
+              },
+              {
+                "id": 37113,
+                "name": "ויקייסלאב קאטושין"
+              },
+              {
+                "id": 37114,
+                "name": "לנארט בצגן"
+              },
+              {
+                "id": 37112,
+                "name": "קוסטס מנדילור"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 02:25:48",
+            "size": 21170995422,
+            "snatches": 53,
+            "seeders": 49,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 15368,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "הוואי הכחולה",
+        "groupNameAlt": "Blue Hawaii",
+        "artist": "",
+        "cover": "https://i.imgur.com/fi99vNB.jpg",
+        "tags": [
+          "קומדיה",
+          "מוסיקה"
+        ],
+        "bookmarked": false,
+        "groupYear": 1961,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt0054692/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134240,
+            "release": "Blue.Hawaii.1961.BluRay.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-15 01:37:25",
+            "size": 30100407102,
+            "snatches": 10,
+            "seeders": 10,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 17086,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "הכישוף: הדור הבא",
+        "groupNameAlt": "The Craft: Legacy",
+        "artist": "",
+        "cover": "https://i.hebits.net/f75bf87389554d1b8266bdebdea48dc5.jpg",
+        "tags": [
+          "אימה",
+          "דרמה",
+          "פנטזיה",
+          "קומדיה",
+          "על.טבעי"
+        ],
+        "bookmarked": false,
+        "groupYear": 2020,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt4685762/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134238,
+            "release": "The.Craft.Legacy.2020.2160p.MA.WEB-DL.DTS-HD.MA.5.1.HDR.H.265-CHORTLE",
+            "artists": [
+              {
+                "id": 35234,
+                "name": "גידעון אדלון"
+              },
+              {
+                "id": 15643,
+                "name": "דייוויד דוכובני"
+              },
+              {
+                "id": 35235,
+                "name": "זואי לונה"
+              },
+              {
+                "id": 9386,
+                "name": "זואי ליסטר-ג'ונס"
+              },
+              {
+                "id": 29407,
+                "name": "לובי סימון"
+              },
+              {
+                "id": 1551,
+                "name": "מישל מונאהן"
+              },
+              {
+                "id": 24115,
+                "name": "פיטר פילארדי"
+              },
+              {
+                "id": 35023,
+                "name": "קיילי ספאני"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2026-09-15 01:01:19",
+            "size": 18850734421,
+            "snatches": 11,
+            "seeders": 11,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 26130,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "הקבינט של ד\"ר קליגרי",
+        "groupNameAlt": "Das Cabinet des Dr. Caligari",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWJiNGJiMTEtMGM3OC00ZWNlLTgwZTgtMzdhNTRiZjk5MTQ1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "tags": [
+          "אימה",
+          "דרמה",
+          "פשע",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 1920,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0010323/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134230,
+            "release": "The.Cabinet.of.Dr.Caligari.1920.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-EPSiLON",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": "German",
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-14 15:38:01",
+            "size": 22551312065,
+            "snatches": 17,
+            "seeders": 14,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35266,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "על סף תהום",
+        "groupNameAlt": "The Brink of War",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMjUxNWFlZmItZGVkYS00YmZlLWJkM2QtMzFiMThiZGRkNDNkXkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "דרמה",
+          "מלחמה",
+          "מותחן",
+          "הסטוריה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt33070884/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134222,
+            "release": "The.Brink.of.War.2026.2160p.AMZN.WEB-DL.DDP5.1.HDR.H.265-SCOPE",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-14 01:11:16",
+            "size": 18046428781,
+            "snatches": 63,
+            "seeders": 51,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 11943,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "תמונה משפחתית",
+        "groupNameAlt": "Wildlife",
+        "artist": "",
+        "cover": "https://i.hebits.net/caed00795a2b430fb581c4212dbbfbea.jpg",
+        "tags": [
+          "דרמה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2018,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt5929754/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134219,
+            "release": "Wildlife.2018.Criterion.1080p.BluRay.DD.5.1.x264-HiFi",
+            "artists": [
+              {
+                "id": 5848,
+                "name": "אד אוקסנבולד"
+              },
+              {
+                "id": 1285,
+                "name": "ביל קאמפ"
+              },
+              {
+                "id": 430,
+                "name": "ג'ייק ג'ילנהול"
+              },
+              {
+                "id": 4764,
+                "name": "זואי מרגרט קולטי"
+              },
+              {
+                "id": 151,
+                "name": "קארי מוליגן"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-14 00:50:31",
+            "size": 16225564022,
+            "snatches": 21,
+            "seeders": 18,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35264,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "צימוק בשמש",
+        "groupNameAlt": "A Raisin in the Sun",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BZmUwODU3NzMtMGMxZC00NzEyLTg4YmEtNDI4MzYzMTMzZTE5XkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "דרמה",
+          "רומנטי"
+        ],
+        "bookmarked": false,
+        "groupYear": 1961,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt0055353/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134216,
+            "release": "A.Raisin.in.the.Sun.1961.1080p.BluRay.REMUX.AVC.FLAC.1.0-EPSiLON",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 23:16:12",
+            "size": 30252953212,
+            "snatches": 18,
+            "seeders": 16,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 32185,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "מרדף עד הקצה",
+        "groupNameAlt": "She Rides Shotgun",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BMGY1NGU4ZDMtMTNiZS00ZDVlLTllNjQtNDViZTI3M2MxYTkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "tags": [
+          "דרמה",
+          "פשע",
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2025,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt27986457/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134215,
+            "release": "She Rides Shotgun 2025 1080p BluRay x264 DTS-WiKi",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 22:48:38",
+            "size": 21098619482,
+            "snatches": 16,
+            "seeders": 15,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35263,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "שבעת הצלפים",
+        "groupNameAlt": "Seven Snipers",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2NkYzVkNDUtODQwZC00MGY1LTk2NzgtYTJmNmEwMDI5ZDFmXkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt36926359/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134209,
+            "release": "Seven.Snipers.2026.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-SilentRogue",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264 Remux",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 19:43:41",
+            "size": 20480535242,
+            "snatches": 37,
+            "seeders": 28,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 35263,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "שבעת הצלפים",
+        "groupNameAlt": "Seven Snipers",
+        "artist": "",
+        "cover": "https://m.media-amazon.com/images/M/MV5BY2NkYzVkNDUtODQwZC00MGY1LTk2NzgtYTJmNmEwMDI5ZDFmXkEyXkFqcGc@._V1_.jpg",
+        "tags": [
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2026,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt36926359/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134208,
+            "release": "Seven.Snipers.2026.2160p.iT.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-BYNDR",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 19:43:08",
+            "size": 16734737985,
+            "snatches": 72,
+            "seeders": 63,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 2849,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "מפלצות בע\"מ",
+        "groupNameAlt": "Monsters, Inc.",
+        "artist": "",
+        "cover": "https://i.hebits.net/f6b9e83150ec4f89ac01ea4b45253ea2.png",
+        "tags": [
+          "אנימציה",
+          "הרפתקאות",
+          "משפחה",
+          "פנטזיה",
+          "קומדיה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2001,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0198781",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134207,
+            "release": "Monsters.Inc.2001.2160p.UHD.BluRay.TrueHD.7.1.Atmos.DV.HDR.x265-RandomBytes",
+            "artists": [
+              {
+                "id": 3254,
+                "name": "אוהד שחר"
+              },
+              {
+                "id": 13734,
+                "name": "אנדרו סטנטון"
+              },
+              {
+                "id": 2958,
+                "name": "בילי קריסטל"
+              },
+              {
+                "id": 1753,
+                "name": "ג'ון גודמן"
+              },
+              {
+                "id": 12210,
+                "name": "ג'ונתן רוברטס"
+              },
+              {
+                "id": 9937,
+                "name": "ג'יימס קובורן"
+              },
+              {
+                "id": 7715,
+                "name": "ג'ניפר טילי"
+              },
+              {
+                "id": 2521,
+                "name": "דב רייזר"
+              },
+              {
+                "id": 18745,
+                "name": "דייוויד סילברמן"
+              },
+              {
+                "id": 14377,
+                "name": "דן גרסון"
+              },
+              {
+                "id": 24332,
+                "name": "לי אנקריץ"
+              },
+              {
+                "id": 12486,
+                "name": "נתן דטנר"
+              },
+              {
+                "id": 4045,
+                "name": "סטיב בושמי"
+              },
+              {
+                "id": 5242,
+                "name": "פיט דוקטר"
+              },
+              {
+                "id": 6612,
+                "name": "רט ריס"
+              },
+              {
+                "id": 24333,
+                "name": "שירה זמק"
+              },
+              {
+                "id": 3406,
+                "name": "תומר שרון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 18:50:01",
+            "size": 24274409117,
+            "snatches": 18,
+            "seeders": 14,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 34823,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "בית קטן בערבה",
+        "groupNameAlt": "Little House on the Prairie",
+        "artist": "",
+        "cover": "https://image.tmdb.org/t/p/w500/eVpvlqKZfEVsBOttNFTUyfPoA6K.jpg",
+        "tags": [
+          "דרמה",
+          "מערבון",
+          "משפחה",
+          "רומנטי"
+        ],
+        "bookmarked": false,
+        "groupYear": 1974,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0071007/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134204,
+            "release": "Little House on the Prairie S04 1080p BluRay x264-OFT",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 45,
+            "time": "2026-09-13 15:55:13",
+            "size": 50015133669,
+            "snatches": 20,
+            "seeders": 13,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 20804,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "איש הזאב",
+        "groupNameAlt": "The Wolfman",
+        "artist": "",
+        "cover": "https://i.ibb.co/L13YxH6/c19ff3f46e09d1d9eb96f742ae7e58f4.jpg",
+        "tags": [
+          "אימה",
+          "דרמה",
+          "פנטזיה",
+          "מותחן",
+          "הסטוריה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2010,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt0780653/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134203,
+            "release": "The.Wolfman.2010.UNRATED.2160p.UHD.BluRay.TrueHD.7.1.DoVi.HDR10.x265-W4NK3R",
+            "artists": [
+              {
+                "id": 510,
+                "name": "אמילי בלאנט"
+              },
+              {
+                "id": 325,
+                "name": "אנתוני הופקינס"
+              },
+              {
+                "id": 346,
+                "name": "בניסיו דל טורו"
+              },
+              {
+                "id": 302,
+                "name": "הוגו וויבינג"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2026-09-13 14:41:46",
+            "size": 31202269934,
+            "snatches": 14,
+            "seeders": 12,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 15549,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "התעוררות",
+        "groupNameAlt": "Awakenings",
+        "artist": "",
+        "cover": "https://i.ibb.co/gPvBLC0/be55b447ed40be0d9217ef56ee79f92f.jpg",
+        "tags": [
+          "ביוגרפיה",
+          "דרמה"
+        ],
+        "bookmarked": false,
+        "groupYear": 1990,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt0099077/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134202,
+            "release": "Awakenings.1990.2160p.UHD.BluRay.HDR10+.DoVi.TrueHD 7.1.Atmos.x265-SPHD",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 14:39:34",
+            "size": 62178345726,
+            "snatches": 9,
+            "seeders": 7,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 31851,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "זוג הצללים",
+        "groupNameAlt": "Shadow Force",
+        "artist": "",
+        "cover": "https://i.hebits.net/7be10133740a44dbb2cb116dc23a2c85.jpg",
+        "tags": [
+          "דרמה",
+          "מותחן",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2025,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt11092020",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134200,
+            "release": "Shadow Force 2025 Hybrid 2160p iT WEB-DL DoVi HDR10+ H.265 TrueHD 7.1 Atmos-126811",
+            "artists": [
+              {
+                "id": 33100,
+                "name": "אד קווין"
+              },
+              {
+                "id": 13120,
+                "name": "ג'ו קארנהאן"
+              },
+              {
+                "id": 22694,
+                "name": "ג'ייק טאפר"
+              },
+              {
+                "id": 33098,
+                "name": "ג׳אליל קמארה"
+              },
+              {
+                "id": 33102,
+                "name": "ג׳נל סטיבנס"
+              },
+              {
+                "id": 33085,
+                "name": "דה-ויין ג'וי רנדולף"
+              },
+              {
+                "id": 4177,
+                "name": "יוסון אן"
+              },
+              {
+                "id": 33096,
+                "name": "ליאון צ'ילס"
+              },
+              {
+                "id": 822,
+                "name": "מארק סטרונג"
+              },
+              {
+                "id": 33099,
+                "name": "מרשל קוק"
+              },
+              {
+                "id": 33097,
+                "name": "מת'וד מן"
+              },
+              {
+                "id": 33101,
+                "name": "נטליה רייס"
+              },
+              {
+                "id": 1533,
+                "name": "סאלה בייקר"
+              },
+              {
+                "id": 21630,
+                "name": "עומאר סי"
+              },
+              {
+                "id": 2657,
+                "name": "קרי וושינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 14:32:21",
+            "size": 23022970671,
+            "snatches": 23,
+            "seeders": 18,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 21178,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "מלחמת האופל: התעוררות",
+        "groupNameAlt": "Underworld: Awakening",
+        "artist": "",
+        "cover": "https://i.imgur.com/SEToHvp.jpg",
+        "tags": [
+          "אימה",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2012,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt1496025/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134199,
+            "release": "Underworld.Awakening.2012.2160p.UHD.BluRay.Atmos.HDR.x265-W4NK3R",
+            "artists": [
+              {
+                "id": 8268,
+                "name": "אינדיה איסלי"
+              },
+              {
+                "id": 14103,
+                "name": "ביורן סטיין"
+              },
+              {
+                "id": 14101,
+                "name": "ג'יי מייקל סטרזינסקי"
+              },
+              {
+                "id": 14104,
+                "name": "ג׳ון הלאווין"
+              },
+              {
+                "id": 14087,
+                "name": "כריס הולדן-רייד"
+              },
+              {
+                "id": 12459,
+                "name": "לן וייסמן"
+              },
+              {
+                "id": 14102,
+                "name": "מונס מורלינד"
+              },
+              {
+                "id": 2659,
+                "name": "מייקל אילי"
+              },
+              {
+                "id": 7836,
+                "name": "סטיבן ריאה"
+              },
+              {
+                "id": 2374,
+                "name": "צ'ארלס דאנס"
+              },
+              {
+                "id": 4948,
+                "name": "קייט בקינסייל"
+              },
+              {
+                "id": 6379,
+                "name": "תיאו ג'יימס"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 14:27:17",
+            "size": 21245059748,
+            "snatches": 17,
+            "seeders": 14,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 21461,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "עצירת פתע",
+        "groupNameAlt": "Breakdown",
+        "artist": "",
+        "cover": "https://i.imgur.com/JoSBMjR.jpg",
+        "tags": [
+          "דרמה",
+          "פשע",
+          "מסתורין",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 1997,
+        "groupTime": null,
+        "catalogue": "https://imdb.com/title/tt0118771/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134197,
+            "release": "Breakdown 1997 2160p UHD BluRay TrueHD 5.1 DoVi HDR10 HEVC-DON",
+            "artists": [],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 14:22:56",
+            "size": 32599283936,
+            "snatches": 19,
+            "seeders": 17,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 13999,
+        "categoryID": 1,
+        "categoryName": "Movies",
+        "groupName": "דוקטור סליפ",
+        "groupNameAlt": "Doctor Sleep",
+        "artist": "",
+        "cover": "https://i.imgur.com/fRPT2ZQ.jpg",
+        "tags": [
+          "אימה",
+          "דרמה",
+          "פנטזיה",
+          "מותחן"
+        ],
+        "bookmarked": false,
+        "groupYear": 2019,
+        "groupTime": null,
+        "catalogue": "https://www.imdb.com/title/tt5606664/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 134196,
+            "release": "Doctor.Sleep.2019.2160p.UHD.BluRay.Atmos.DV.HDR10.x265-W4NK3R",
+            "artists": [
+              {
+                "id": 10797,
+                "name": "אלכס אסו"
+              },
+              {
+                "id": 9562,
+                "name": "אמילי אלין לינד"
+              },
+              {
+                "id": 2391,
+                "name": "ברוס גרינווד"
+              },
+              {
+                "id": 7899,
+                "name": "ג'וסין דונהיו"
+              },
+              {
+                "id": 6640,
+                "name": "ג'ייסון דיויס"
+              },
+              {
+                "id": 3586,
+                "name": "ג'ייקוב טרמבלי"
+              },
+              {
+                "id": 10796,
+                "name": "זאהן מקלרנון"
+              },
+              {
+                "id": 1536,
+                "name": "יואן מק'גרגור"
+              },
+              {
+                "id": 18944,
+                "name": "מייק פלנגן"
+              },
+              {
+                "id": 12375,
+                "name": "סטיבן קינג"
+              },
+              {
+                "id": 450,
+                "name": "קארל למבלי"
+              },
+              {
+                "id": 10795,
+                "name": "קיילי קורן"
+              },
+              {
+                "id": 1436,
+                "name": "רבקה פרגוסון"
+              },
+              {
+                "id": 4144,
+                "name": "רוברט לונגסטריט"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265 HDR",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2026-09-13 14:19:55",
+            "size": 44512660602,
+            "snatches": 10,
+            "seeders": 8,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      }
+    ]
+  }
+}

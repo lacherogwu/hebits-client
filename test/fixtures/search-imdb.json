@@ -1,0 +1,6109 @@
+{
+  "status": "success",
+  "response": {
+    "currentPage": 1,
+    "pages": 2,
+    "results": [
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 128747,
+            "release": "Game.of.Thrones.S08.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-ShiNiGAMi",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 12,
+            "time": "2026-04-06 09:59:54",
+            "size": 67519783201,
+            "snatches": 16,
+            "seeders": 5,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 128630,
+            "release": "Game.of.Thrones.S06.2160p.MAX.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-ShiNiGAMi",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 20,
+            "time": "2026-04-04 07:51:35",
+            "size": 91431304280,
+            "snatches": 20,
+            "seeders": 4,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 71902,
+            "release": "Game.Of.Thrones.S08.COMPLETE.UHD.BLURAY-MIXED",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "M2TS",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1044,
+            "time": "2021-11-19 15:21:17",
+            "size": 279096004434,
+            "snatches": 88,
+            "seeders": 9,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 46198,
+            "release": "Game.of.Thrones.COMPLETE.1080p.WEB-DL.DD5.1.H.264-HeBits",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 146,
+            "time": "2019-05-20 09:26:33",
+            "size": 187142810354,
+            "snatches": 722,
+            "seeders": 125,
+            "leechers": 3,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 46197,
+            "release": "Game.of.Thrones.COMPLETE.720p.WEB-DL.DD5.1.H.264-HeBits",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 146,
+            "time": "2019-05-20 09:23:31",
+            "size": 133029138872,
+            "snatches": 162,
+            "seeders": 21,
+            "leechers": 1,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 46193,
+            "release": "Game.of.Thrones.S08E06.1080p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2019-05-20 06:19:03",
+            "size": 4691727771,
+            "snatches": 49,
+            "seeders": 7,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 46192,
+            "release": "Game.of.Thrones.S08E06.720p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2019-05-20 06:17:35",
+            "size": 2080908543,
+            "snatches": 27,
+            "seeders": 6,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 46000,
+            "release": "Game.of.Thrones.S08E05.720p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2019-05-13 07:40:28",
+            "size": 2918227069,
+            "snatches": 25,
+            "seeders": 6,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45999,
+            "release": "Game.of.Thrones.S08E05.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2019-05-13 07:39:10",
+            "size": 5311165744,
+            "snatches": 40,
+            "seeders": 7,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45998,
+            "release": "Game.of.Thrones.S08E05.WEB.H264.HeBits-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2019-05-13 06:48:08",
+            "size": 765438429,
+            "snatches": 6,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45838,
+            "release": "Game.of.Thrones.S08E04.720p.AMZN.WEB-DL.DDP5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2019-05-06 04:55:16",
+            "size": 1978252430,
+            "snatches": 30,
+            "seeders": 6,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45837,
+            "release": "Game.of.Thrones.S08E04.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2019-05-06 04:55:14",
+            "size": 4279149000,
+            "snatches": 43,
+            "seeders": 7,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45796,
+            "release": "Game.of.Thrones.S01.2160p.UHD.BluRay.HDR.HEVC.Atmos-HDBEE",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "M2TS",
+            "codec": "H.265",
+            "resolution": "4K",
+            "audio": "",
+            "subbing": "אולפנים",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1416,
+            "time": "2019-05-03 19:51:21",
+            "size": 354284643484,
+            "snatches": 48,
+            "seeders": 12,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45675,
+            "release": "Game.of.Thrones.S08E03.WEB.H264.HeBits-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2019-04-29 05:25:51",
+            "size": 681537645,
+            "snatches": 8,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45674,
+            "release": "Game.of.Thrones.S08E03.1080p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2019-04-29 05:05:46",
+            "size": 5297906718,
+            "snatches": 44,
+            "seeders": 6,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45673,
+            "release": "Game.of.Thrones.S08E03.720p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 1,
+            "time": "2019-04-29 04:52:13",
+            "size": 2485877382,
+            "snatches": 26,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45513,
+            "release": "Game.of.Thrones.S08E02.1080p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 4,
+            "time": "2019-04-22 09:16:11",
+            "size": 3708177504,
+            "snatches": 33,
+            "seeders": 6,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45511,
+            "release": "Game.of.Thrones.S08E02.720p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2019-04-22 08:28:11",
+            "size": 1562890137,
+            "snatches": 26,
+            "seeders": 5,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45509,
+            "release": "Game.of.Thrones.S08E02.WEB.H264.HeBits-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2019-04-22 05:49:28",
+            "size": 382362030,
+            "snatches": 6,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45389,
+            "release": "game.of.thrones.s08e01.repack.1080p.web.h264-memento",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2019-04-15 09:03:56",
+            "size": 3413859739,
+            "snatches": 35,
+            "seeders": 8,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45383,
+            "release": "Game.of.Thrones.S08E01.REPACK.720p.WEB.H264-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2019-04-15 07:03:37",
+            "size": 1710069429,
+            "snatches": 25,
+            "seeders": 5,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 45380,
+            "release": "Game.of.Thrones.S08E01.REPACK.WEB.H264.HeBits-MEMENTO",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2019-04-15 05:54:22",
+            "size": 437654940,
+            "snatches": 8,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 35046,
+            "release": "Game.of.Thrones.S07.BluRay.1080p.x264.DD5.1-HDChina",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 15,
+            "time": "2017-12-06 16:33:30",
+            "size": 45462810415,
+            "snatches": 62,
+            "seeders": 12,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": true,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32735,
+            "release": "Game.of.Thrones.S07E07.HDTV.x264.HeBits-UAV",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-28 14:27:48",
+            "size": 512887039,
+            "snatches": 0,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32730,
+            "release": "Game.of.Thrones.S07.720p.HDTV.x264-HeBits",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 14,
+            "time": "2017-08-28 11:36:17",
+            "size": 8370866318,
+            "snatches": 20,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32725,
+            "release": "Game.of.Thrones.S07E07.WEB.H264.HeBits-STRiFE",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-28 08:09:12",
+            "size": 526376255,
+            "snatches": 1,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32724,
+            "release": "Game.of.Thrones.S07.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 14,
+            "time": "2017-08-28 06:49:28",
+            "size": 29148764821,
+            "snatches": 1,
+            "seeders": 1,
+            "leechers": 0,
+            "isHalfFreeleech": true,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32722,
+            "release": "Game.of.Thrones.S07E07.The.Dragon.and.the.Wolf.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-28 06:33:45",
+            "size": 5096824215,
+            "snatches": 6,
+            "seeders": 4,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32552,
+            "release": "Game.of.Thrones.S07E06.PROPER.HDTV.x264.HeBits-SVA",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-21 07:21:11",
+            "size": 526577767,
+            "snatches": 1,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32550,
+            "release": "Game.of.Thrones.S07E06.PROPER.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-08-21 07:01:50",
+            "size": 1578267528,
+            "snatches": 2,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32548,
+            "release": "Game.of.Thrones.S07E06.Beyond.the.Wall.1080p.AMZN.WEBRip.DDP5.1.x264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-21 06:17:07",
+            "size": 5088841292,
+            "snatches": 3,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32438,
+            "release": "Game.of.Thrones.S07E06.1080p.HDTV.LEAKED-SiT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "XViD",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 7,
+            "time": "2017-08-16 19:01:27",
+            "size": 2068981061,
+            "snatches": 0,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32437,
+            "release": "Game.of.Thrones.S07E06.720p.HDTV.x264.AC3-Manning",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-08-16 18:59:20",
+            "size": 1967066160,
+            "snatches": 3,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32421,
+            "release": "Game.of.Thrones.S06.1080p.WEB-DL.DD5.1.H.264-HeBits",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 20,
+            "time": "2017-08-15 16:44:57",
+            "size": 21653045966,
+            "snatches": 60,
+            "seeders": 13,
+            "leechers": 0,
+            "isHalfFreeleech": true,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32375,
+            "release": "Game.of.Thrones.S07E05.Eastwatch.1080p.AMZN.WEB-DL.DDP5.1.H.264-HeBits",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-14 08:35:35",
+            "size": 3538413352,
+            "snatches": 6,
+            "seeders": 3,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32373,
+            "release": "Game.of.Thrones.S07E05.HDTV.x264.HeBits-SVA",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-14 08:09:13",
+            "size": 321738523,
+            "snatches": 1,
+            "seeders": 1,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32372,
+            "release": "Game.of.Thrones.S07E05.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-08-14 07:53:39",
+            "size": 1007448662,
+            "snatches": 3,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32266,
+            "release": "Game.of.Thrones.S07E04.The.Spoils.of.War.1080p.AMZN.WEB.DL.DDP5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-08-07 13:45:22",
+            "size": 3275022658,
+            "snatches": 4,
+            "seeders": 3,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32254,
+            "release": "Game.of.Thrones.S07E04.HDTV.x264.HeBits-SVA",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-08-07 07:28:29",
+            "size": 361193454,
+            "snatches": 1,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32251,
+            "release": "Game.of.Thrones.S07E04.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-08-07 06:33:16",
+            "size": 1061391095,
+            "snatches": 3,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32115,
+            "release": "Game.of.Thrones.S07E03.The.Queens.Justice.1080p.AMZN.WEB.DL.DDP5.1.H.264.HeBits-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-07-31 16:06:24",
+            "size": 4553680438,
+            "snatches": 6,
+            "seeders": 3,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 32107,
+            "release": "Game.of.Thrones.S07E03.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-07-31 06:48:08",
+            "size": 1087335671,
+            "snatches": 3,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 31962,
+            "release": "Game.of.Thrones.S07E02.Stormborn.1080p.AMZN.WEB-DL.DD5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-07-24 09:17:52",
+            "size": 3833430306,
+            "snatches": 7,
+            "seeders": 3,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 31955,
+            "release": "Game.of.Thrones.S07E02.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-07-24 05:26:47",
+            "size": 974057991,
+            "snatches": 4,
+            "seeders": 1,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 31869,
+            "release": "Game.of.Thrones.S07E01.Dragonstone.REPACK.1080p.AMZN.WEB-DL.DD+5.1.H.264-GoT",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "1080p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2017-07-17 09:18:33",
+            "size": 3764334732,
+            "snatches": 8,
+            "seeders": 3,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 31863,
+            "release": "Game.of.Thrones.S07E01.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2017-07-17 05:52:51",
+            "size": 1008611385,
+            "snatches": 5,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 25345,
+            "release": "Game.of.Thrones.S06.720p.HDTV.x264-HeBits",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "MKV",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 20,
+            "time": "2016-06-28 21:40:21",
+            "size": 12394954246,
+            "snatches": 23,
+            "seeders": 4,
+            "leechers": 0,
+            "isHalfFreeleech": true,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 25323,
+            "release": "Game.of.Thrones.S06E10.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2016-06-27 05:36:15",
+            "size": 1198964383,
+            "snatches": 5,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 25226,
+            "release": "Game.of.Thrones.S06E09.720p.HDTV.x264-AVS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "720p",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 3,
+            "time": "2016-06-20 05:53:12",
+            "size": 1382587223,
+            "snatches": 6,
+            "seeders": 2,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      },
+      {
+        "groupId": 1339,
+        "categoryID": 2,
+        "categoryName": "TV",
+        "groupName": "משחקי הכס",
+        "groupNameAlt": "Game of Thrones",
+        "artist": "",
+        "cover": "https://i.hebits.net/ceb9d802c7834656a4b59c32f5024c13.jpg",
+        "tags": [
+          "דרמה",
+          "הרפתקאות",
+          "מדע.בדיוני",
+          "פנטזיה",
+          "פעולה"
+        ],
+        "bookmarked": false,
+        "groupYear": 2011,
+        "groupTime": null,
+        "catalogue": "http://www.imdb.com/title/tt0944947/",
+        "studio": "",
+        "series": "",
+        "dlsite": "",
+        "maxSize": null,
+        "totalSnatched": null,
+        "totalSeeders": null,
+        "totalLeechers": null,
+        "torrents": [
+          {
+            "torrentId": 25116,
+            "release": "Game.of.Thrones.S06E08.HDTV.x264.HeBits-KILLERS",
+            "artists": [
+              {
+                "id": 483,
+                "name": "איאן גלן"
+              },
+              {
+                "id": 481,
+                "name": "אלפי אלן"
+              },
+              {
+                "id": 474,
+                "name": "אמיליה קלארק"
+              },
+              {
+                "id": 485,
+                "name": "ג'ון בראדלי"
+              },
+              {
+                "id": 484,
+                "name": "ג'רום פלין"
+              },
+              {
+                "id": 18581,
+                "name": "ד.ב. וייס"
+              },
+              {
+                "id": 18580,
+                "name": "דיוויד בניוף"
+              },
+              {
+                "id": 5000,
+                "name": "ולדימיר"
+              },
+              {
+                "id": 482,
+                "name": "ולדימיר \"פורדו\" פורדיק"
+              },
+              {
+                "id": 476,
+                "name": "לנה הידי"
+              },
+              {
+                "id": 479,
+                "name": "מייסי וויליאמס"
+              },
+              {
+                "id": 477,
+                "name": "ניקולאי קוסטר-וולדו"
+              },
+              {
+                "id": 478,
+                "name": "סופי טרנר"
+              },
+              {
+                "id": 475,
+                "name": "פיטר דינקלייג'"
+              },
+              {
+                "id": 480,
+                "name": "קונלת' היל"
+              },
+              {
+                "id": 473,
+                "name": "קית הרינגטון"
+              }
+            ],
+            "container": "לא ידוע",
+            "codec": "H.264",
+            "resolution": "SD",
+            "audio": "",
+            "subbing": "רשת",
+            "isForinge": true,
+            "language": null,
+            "archive": "",
+            "fileCount": 2,
+            "time": "2016-06-13 05:53:34",
+            "size": 377088243,
+            "snatches": 0,
+            "seeders": 0,
+            "leechers": 0,
+            "isHalfFreeleech": false,
+            "isFreeleech": false,
+            "isUploadX2": false,
+            "isUploadX3": false,
+            "isQuarterLeech": false,
+            "isNeutralLeech": false,
+            "isPersonalFreeleech": false,
+            "canUseToken": false,
+            "hasSnatched": false
+          }
+        ]
+      }
+    ]
+  }
+}

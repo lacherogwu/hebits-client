@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "response": {
+    "username": "example",
+    "id": 1234,
+    "userstats": {
+      "uploaded": 25000000000,
+      "downloaded": 20000000000,
+      "ratio": 1.25,
+      "requiredratio": 0.4375,
+      "class": "Heb User"
+    }
+  }
+}
