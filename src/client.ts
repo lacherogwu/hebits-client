@@ -58,14 +58,18 @@ export class Hebits {
    *  not supplied, so the common call takes no arguments. */
   async dailyDownloads(userId?: number): Promise<{ used: number; limit: number }> {
     const id = userId ?? this.#userId ?? (await this.stats()).userId;
-    const html = await this.#transport.text('user.php', { id });
+    // Freshness-critical: a stale count could let a caller exceed the tracker's daily
+    // download allowance, so this always reads through to the tracker.
+    const html = await this.#transport.text('user.php', { id }, { bypassCache: true });
     const parsed = parseDailyDownloads(html);
     if (!parsed) throw new ApiError('could not find the daily download counter on the profile page');
     return parsed;
   }
 
   async checkLogin(): Promise<void> {
-    const html = await this.#transport.text('');
+    // Freshness-critical: a cached page could report a dead cookie as valid for up to
+    // `cacheTtlMs`, defeating the point of a health check.
+    const html = await this.#transport.text('', undefined, { bypassCache: true });
     if (!isLoggedIn(html)) throw new LoginExpiredError('no logout link on the front page — the cookie has expired');
   }
 

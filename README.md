@@ -70,6 +70,7 @@ try {
 | `userAgent`   | `string`                               | `hebits-client/<version>`   |
 | `rateLimit`   | `{ limit: number; interval: number }`  | `{ limit: 1, interval: 2000 }` |
 | `cacheTtlMs`  | `number`                               | `600000` (10 minutes); `0` disables |
+| `cacheMaxEntries` | `number`                           | `200` — an LRU cap on how many distinct query keys the response cache holds at once |
 | `retry`       | `number`                               | `2`                          |
 | `timeoutMs`   | `number`                               | `30000`                     |
 
@@ -96,13 +97,15 @@ interface AccountStats {
 
 Reads the per-day download counter off the user's profile page (`user.php?id=N`). If you
 don't pass a `userId`, it resolves one for you by calling `stats()` first, so the common
-case is just `await hebits.dailyDownloads()`.
+case is just `await hebits.dailyDownloads()`. This call always bypasses the response
+cache — a stale counter could let you exceed the tracker's daily allowance.
 
 ### `hebits.checkLogin(): Promise<void>`
 
 Fetches the front page and checks for a logout link. Resolves silently if the cookie is
 still valid; throws `LoginExpiredError` if not. Useful as a cheap health check before a
-batch of other calls.
+batch of other calls. This call always bypasses the response cache, so it never reports a
+dead cookie as valid just because a cached page is still within its TTL.
 
 ### `hebits.browse(options?: BrowseOptions): Promise<HebitsTorrent[]>`
 
@@ -190,10 +193,10 @@ branch on the specific subclass:
 
 | class                | when it fires |
 | --------------------- | ------------- |
-| `LoginExpiredError`   | The response is a redirect to `login.php`, or a login form was served with a 200 — either way, the cookie is dead. Never retried automatically: retrying a dead cookie just hammers the tracker for no gain. |
-| `RateLimitedError`    | The tracker answered with HTTP 429. |
+| `LoginExpiredError`   | The response is a redirect to `login.php`, or a login form was served with a 200 — either way, the cookie is dead. This applies uniformly to every call this client makes, including `downloadTorrent`: a dead cookie on the download endpoint raises this too, not a generic error. Never retried automatically: retrying a dead cookie just hammers the tracker for no gain. |
+| `RateLimitedError`    | The tracker answered with HTTP 429 — on any endpoint, including downloads. |
 | `ApiError`            | Any other non-success HTTP status, a non-JSON body where JSON was expected, or a JSON body that fails the zod schema (the tracker's API shape changed). The message names the offending field(s). |
-| `NotATorrentError`    | `downloadTorrent` got a body that isn't bencode — Hebits served an HTML refusal page instead. |
+| `NotATorrentError`    | `downloadTorrent` got a body that isn't bencode and isn't a login page either — Hebits served some other HTML refusal instead (e.g. insufficient ratio, wrong class). |
 
 ## Rate limiting and identification
 
@@ -201,10 +204,15 @@ This client is deliberately slow and honest, not fast and stealthy:
 
 - **One request in flight at a time**, throttled to roughly **one request every two
   seconds** by default (`rateLimit: { limit: 1, interval: 2000 }`). Nothing this package
-  does is latency-sensitive.
-- **Responses are cached for 10 minutes** by default (`cacheTtlMs`), so repeating the same
+  does is latency-sensitive. This is a single shared throttle across every call this
+  client makes — `browse`/`stats`/etc. AND `downloadTorrent` AND each retry attempt of
+  any of them — so browsing and downloading interleaving, or a burst of retried 5xxs,
+  never doubles the real request rate.
+- **Responses are cached for 10 minutes** by default (`cacheTtlMs`), capped at 200
+  distinct query keys by default (`cacheMaxEntries`, an LRU bound), so repeating the same
   `browse`/`stats`/etc. call within that window returns the cached body instead of hitting
-  the tracker again.
+  the tracker again. `checkLogin` and `dailyDownloads` always bypass this cache, since a
+  stale answer from either is actively wrong to act on.
 - **Concurrent identical requests are collapsed into one.** If two calls for the exact
   same path and parameters overlap in flight, the second one just awaits the first's
   in-flight promise instead of firing its own request.
