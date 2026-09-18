@@ -1,0 +1,27 @@
+{
+  "name": "hebits-client",
+  "version": "0.1.0",
+  "description": "A client for the Hebits private tracker's JSON API.",
+  "license": "MIT",
+  "type": "module",
+  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
+  "files": ["dist"],
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "ky": "^2.1.0",
+    "p-throttle": "^8.1.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "msw": "^2.15.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.1"
+  }
+}
