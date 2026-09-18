@@ -1,0 +1,122 @@
+import { ApiError } from './errors.js';
+import type { RawGroup, RawTorrent } from './schemas.js';
+
+/** One torrent, with its group's context folded in. This is the package's central type
+ *  and the only shape consumers see. */
+export interface HebitsTorrent {
+  id: number;
+  groupId: number;
+  name: string;
+  groupName: string;
+  categoryId: number;
+  imdb?: string;
+  cover?: string;
+  tags: string[];
+  size: number;
+  fileCount: number;
+  seeders: number;
+  leechers: number;
+  snatches: number;
+  uploadedAt: Date;
+  resolution?: string;
+  codec?: string;
+  audio?: string;
+  container?: string;
+  downloadFactor: number;
+  uploadFactor: number;
+  canUseToken: boolean;
+  hasSnatched: boolean;
+}
+
+export function imdbFromCatalogue(url: string | undefined): string | undefined {
+  return url?.match(/\b(tt\d+)\b/)?.[1];
+}
+
+/** The API returns an unzoned local timestamp. Israel observes DST, so a fixed +02:00
+ *  offset is wrong for half the year — Jackett hardcodes it and is an hour out each
+ *  summer.
+ *
+ *  Resolve the real offset with Intl.formatToParts. Do NOT use the
+ *  `new Date(d.toLocaleString('en-US', {timeZone}))` trick: it is correct only when the
+ *  host machine runs in UTC, because the re-parse interprets the formatted string in the
+ *  MACHINE's zone. Measured: on a host in Asia/Jerusalem it is 2h out in winter and 3h
+ *  out in summer; in America/New_York, 5h out. That would silently corrupt any caller
+ *  filtering on "uploaded in the last N hours". */
+function zoneOffsetMs(at: Date, timeZone: string): number {
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone, hour12: false,
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit',
+  });
+  const p = Object.fromEntries(fmt.formatToParts(at).map((x) => [x.type, x.value])) as Record<string, string>;
+  const asUtc = Date.UTC(
+    Number(p['year']), Number(p['month']) - 1, Number(p['day']),
+    Number(p['hour']) % 24, Number(p['minute']), Number(p['second']),
+  );
+  return asUtc - at.getTime();
+}
+
+export function parseHebitsTime(s: string): Date {
+  const naive = Date.parse(`${s.replace(' ', 'T')}Z`);
+  if (Number.isNaN(naive)) throw new ApiError(`unparseable timestamp from Hebits: ${JSON.stringify(s)}`);
+  return new Date(naive - zoneOffsetMs(new Date(naive), 'Asia/Jerusalem'));
+}
+
+type Flags = Pick<
+  RawTorrent,
+  'isFreeleech' | 'isHalfFreeleech' | 'isQuarterLeech' | 'isNeutralLeech'
+  | 'isPersonalFreeleech' | 'isUploadX2' | 'isUploadX3'
+>;
+
+/** Collapse the tracker's seven boolean flags into the two numbers consumers reason
+ *  about, so nobody has to remember that isQuarterLeech means 0.25.
+ *
+ *  Ordering is deliberate: freeleech beats half- and quarter-leech (cheaper wins over a
+ *  torrent somehow flagged both), and neutral overrides everything else — it means
+ *  neither side counts, regardless of what else is set. */
+export function factorsFor(f: Flags): { downloadFactor: number; uploadFactor: number } {
+  let downloadFactor = 1;
+  if (f.isQuarterLeech) downloadFactor = 0.25;
+  if (f.isHalfFreeleech) downloadFactor = 0.5;
+  if (f.isFreeleech || f.isPersonalFreeleech) downloadFactor = 0;
+
+  let uploadFactor = 1;
+  if (f.isUploadX2) uploadFactor = 2;
+  if (f.isUploadX3) uploadFactor = 3;
+
+  if (f.isNeutralLeech) return { downloadFactor: 0, uploadFactor: 0 };
+  return { downloadFactor, uploadFactor };
+}
+
+export function flattenGroups(groups: RawGroup[]): HebitsTorrent[] {
+  const out: HebitsTorrent[] = [];
+  for (const g of groups) {
+    const imdb = imdbFromCatalogue(g.catalogue);
+    for (const t of g.torrents) {
+      out.push({
+        id: t.torrentId,
+        groupId: g.groupId,
+        name: t.release ?? g.groupName,
+        groupName: g.groupName,
+        categoryId: g.categoryID,
+        imdb,
+        cover: g.cover,
+        tags: g.tags ?? [],
+        size: t.size,
+        fileCount: t.fileCount,
+        seeders: t.seeders,
+        leechers: t.leechers,
+        snatches: t.snatches,
+        uploadedAt: parseHebitsTime(t.time),
+        resolution: t.resolution,
+        codec: t.codec,
+        audio: t.audio,
+        container: t.container,
+        ...factorsFor(t),
+        canUseToken: t.canUseToken ?? false,
+        hasSnatched: t.hasSnatched ?? false,
+      });
+    }
+  }
+  return out;
+}
