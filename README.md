@@ -174,7 +174,14 @@ interface HebitsTorrent {
 
 `uploadedAt` is computed from the tracker's unzoned local timestamp, corrected for
 Israel's actual DST offset on that date (not a fixed offset), so filtering on "uploaded in
-the last N hours" is correct year-round.
+the last N hours" is correct year-round — including right around the DST transitions
+themselves, which need a two-pass offset resolution to get right. Two specific wall-clock
+windows per year are genuinely unrecoverable from an unzoned string alone (the tracker
+doesn't say which side of the transition it means): the hour that doesn't exist during
+spring-forward resolves forward past the gap, and the hour that occurs twice during
+fall-back resolves to the later occurrence, so a torrent uploaded in the first occurrence
+of that hour can read up to an hour newer than it really is. Both cases are documented in
+`parseHebitsTime`'s source comment.
 
 `downloadFactor` and `uploadFactor` collapse the tracker's seven separate freeleech/upload
 boolean flags into two numbers: freeleech beats half- and quarter-leech, and a

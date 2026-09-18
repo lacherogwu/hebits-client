@@ -44,6 +44,47 @@ test('an unparseable timestamp raises ApiError rather than an Invalid Date', () 
   expect(() => parseHebitsTime('not a date')).toThrow(/unparseable timestamp/);
 });
 
+function formatJerusalem(d: Date): string {
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Jerusalem', hour12: false,
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit',
+  });
+  const p = Object.fromEntries(fmt.formatToParts(d).map((x) => [x.type, x.value])) as Record<string, string>;
+  return `${p['year']}-${p['month']}-${p['day']} ${p['hour']}:${p['minute']}:${p['second']}`;
+}
+
+// Asia/Jerusalem's 2026 DST transitions: spring forward on 03-27 (02:00 IST -> 03:00
+// IDT), fall back on 10-25 (02:00 IDT -> 01:00 IST). Every OTHER hour of both days must
+// round-trip exactly: format the two-pass result back into Jerusalem wall time and get
+// the input back. The two hours that can't are excluded here and covered by name below —
+// see parseHebitsTime's doc comment for why each is unrecoverable from an unzoned string.
+test('parseHebitsTime round-trips every hour across both 2026 DST transition days', () => {
+  for (const day of ['2026-03-27', '2026-10-25']) {
+    for (let h = 0; h < 24; h++) {
+      if (day === '2026-03-27' && h === 2) continue; // 02:00-02:59 doesn't exist — see below
+      if (day === '2026-10-25' && h === 1) continue; // 01:00-01:59 is ambiguous — see below
+      const input = `${day} ${String(h).padStart(2, '0')}:30:00`;
+      expect(formatJerusalem(parseHebitsTime(input)), input).toBe(input);
+    }
+  }
+});
+
+test('spring-forward gap (03-27 02:00-02:59, 2026): maps forward into 03:xx IDT', () => {
+  // These wall times never occurred. Two-pass converges on the same "compatible"
+  // disambiguation Temporal uses: push forward past the gap into the next real instant.
+  expect(formatJerusalem(parseHebitsTime('2026-03-27 02:30:00'))).toBe('2026-03-27 03:30:00');
+});
+
+test('fall-back overlap (10-25 01:00-01:59, 2026): resolves to the later (IST) reading', () => {
+  // This wall time occurs twice: once at 00:30Z+ (IDT, UTC+3) and once at 23:30Z- the
+  // day before (IST, UTC+2). Two-pass always lands on the later reading — a torrent
+  // uploaded in the FIRST occurrence of this hour can read up to an hour newer than it
+  // really is. Not recoverable: the offset isn't in the data, only in which occurrence
+  // it was. Documented, not silently wrong.
+  expect(parseHebitsTime('2026-10-25 01:30:00').toISOString()).toBe('2026-10-24T23:30:00.000Z');
+});
+
 test('factorsFor maps every flag combination the tracker uses', () => {
   const base = {
     isFreeleech: false, isHalfFreeleech: false, isQuarterLeech: false,

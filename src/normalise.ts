@@ -56,10 +56,28 @@ function zoneOffsetMs(at: Date, timeZone: string): number {
   return asUtc - at.getTime();
 }
 
+/** Two-pass offset resolution. A single sample at the naive-as-UTC instant is wrong near
+ *  a DST transition, because the offset it reads is the one in force AT THAT INSTANT,
+ *  not the one in force at the wall-clock time the string actually names. Sampling a
+ *  second time at `naive - o1` — i.e. at our first guess of the real UTC instant —
+ *  converges on the right offset on both sides of a transition.
+ *
+ *  Two wall-clock windows are genuinely unrecoverable from an unzoned string alone, and
+ *  two-pass resolves them the same way every other DST-aware parser does rather than
+ *  producing garbage:
+ *   - Spring forward (e.g. 03-27 02:00-02:59 in 2026): these wall times never occur.
+ *     Two-pass maps them forward into 03:xx IDT — the "compatible" disambiguation
+ *     `Temporal` also uses.
+ *   - Fall back (e.g. 10-25 01:00-01:59 in 2026): these wall times occur twice. Two-pass
+ *     resolves to the LATER (IST) reading, so a torrent uploaded in the first occurrence
+ *     of that hour can read up to an hour newer than it really is. Not recoverable — the
+ *     information needed to pick the earlier one is not in the data. */
 export function parseHebitsTime(s: string): Date {
   const naive = Date.parse(`${s.replace(' ', 'T')}Z`);
   if (Number.isNaN(naive)) throw new ApiError(`unparseable timestamp from Hebits: ${JSON.stringify(s)}`);
-  return new Date(naive - zoneOffsetMs(new Date(naive), 'Asia/Jerusalem'));
+  const o1 = zoneOffsetMs(new Date(naive), 'Asia/Jerusalem');
+  const o2 = zoneOffsetMs(new Date(naive - o1), 'Asia/Jerusalem');
+  return new Date(naive - o2);
 }
 
 type Flags = Pick<
