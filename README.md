@@ -21,6 +21,16 @@ The cookie eventually expires or gets invalidated server-side. When that happens
 call throws `LoginExpiredError` — see [Errors](#errors) below. There is no way to refresh
 it from inside this package; you have to log in again in a browser and supply a new one.
 
+If your process keeps running across that rotation — a daemon, a long-lived server — pass
+a function instead of a string. It's called fresh before every request, so a new cookie
+takes effect on the very next call with no restart:
+
+```ts
+new Hebits({ cookie: () => fs.readFileSync('cookie.txt', 'utf8').trim() });
+```
+
+The function must be synchronous (read a file or an in-memory value, not an async source).
+
 ## Install
 
 ```sh
@@ -65,7 +75,7 @@ try {
 
 | option        | type                                  | default                    |
 | ------------- | ------------------------------------- | --------------------------- |
-| `cookie`      | `string`                               | required                    |
+| `cookie`      | `string \| (() => string)`             | required                    |
 | `baseUrl`     | `string`                               | `https://hebits.net`        |
 | `userAgent`   | `string`                               | `hebits-client/<version>`   |
 | `rateLimit`   | `{ limit: number; interval: number }`  | `{ limit: 1, interval: 2000 }` |

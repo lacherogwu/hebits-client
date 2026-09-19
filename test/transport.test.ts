@@ -165,6 +165,42 @@ test('bypassCache reads through even when a fresh cache entry exists', async () 
   expect(hits).toBe(before + 1);
 });
 
+test('a string cookie sends the same header as before (backward compatibility)', async () => {
+  let seen: Headers | undefined;
+  server.use(http.get('https://hebits.net/ok.php', ({ request }) => { seen = request.headers; return HttpResponse.json({ ok: true }); }));
+  await make({ cookie: 'sid=abc' }).json('ok.php');
+  expect(seen!.get('cookie')).toBe('sid=abc');
+});
+
+test('a cookie provider is called per request, and a changed value is reflected on the next request', async () => {
+  const seen: (string | null)[] = [];
+  server.use(http.get('https://hebits.net/ok.php', ({ request }) => { seen.push(request.headers.get('cookie')); return HttpResponse.json({ ok: true }); }));
+  let current = 'sid=first';
+  const t = createTransport({ cookie: () => current, rateLimit: { limit: 100, interval: 1 }, cacheTtlMs: 0 });
+  await t.json('ok.php');
+  current = 'sid=second'; // simulates an operator pasting a fresh cookie into a file the provider reads
+  await t.json('ok.php');
+  expect(seen).toEqual(['sid=first', 'sid=second']);
+});
+
+test('the provider is never exposed through a thrown error', async () => {
+  const t = createTransport({
+    cookie: () => 'sid=super-secret-value',
+    rateLimit: { limit: 100, interval: 1 },
+    cacheTtlMs: 0,
+    retry: 0,
+  });
+  await expect(t.json('slow.php')).rejects.toThrow(RateLimitedError);
+  try {
+    await t.json('slow.php');
+    throw new Error('expected rejection');
+  } catch (e) {
+    expect(String(e)).not.toContain('super-secret-value');
+    expect((e as Error).message).not.toContain('super-secret-value');
+    expect(JSON.stringify((e as Error).stack ?? '')).not.toContain('super-secret-value');
+  }
+});
+
 // Finding 11: retries must not fire back-to-back inside one throttle slot — each retry
 // attempt is its own throttled call, so a retry burst is still spaced like any other request.
 test('a retried request is spaced by the throttle, not fired back-to-back', async () => {

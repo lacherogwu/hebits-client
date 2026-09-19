@@ -3,7 +3,15 @@ import pThrottle from 'p-throttle';
 import { ApiError, LoginExpiredError, RateLimitedError } from './errors';
 
 export interface TransportOptions {
-  cookie: string;
+  /** Session cookie for hebits.net. A string is sent as-is on every request — the usual
+   *  case. Pass a function instead when the cookie can change while this client keeps
+   *  running (an operator pastes a fresh one after the old one expired): it is called
+   *  fresh before every request, so a new value takes effect on the very next call, with
+   *  no restart and no code watching for rotation. Called synchronously — read a file or
+   *  other cached value, don't do I/O inline. If it throws, the throw propagates to the
+   *  caller of whichever call triggered it, same as any other broken input; an empty
+   *  string is sent as-is, same as passing `cookie: ''` directly. */
+  cookie: string | (() => string);
   baseUrl?: string;
   userAgent?: string;
   /** Default 1 request per 2s. Nothing here is latency-sensitive. */
@@ -84,7 +92,13 @@ export function createTransport(opts: TransportOptions): Transport {
     // inside a single throttle slot (ky's default) would let a 5xx burst fire several
     // requests back to back.
     retry: 0,
-    headers: { cookie, 'user-agent': userAgent },
+    // A string cookie is a static header, exactly as before. A function cookie is
+    // resolved in beforeRequest instead, once per request, so a rotated value takes
+    // effect on the very next call without recreating the client.
+    headers: { 'user-agent': userAgent, ...(typeof cookie === 'string' ? { cookie } : {}) },
+    ...(typeof cookie === 'function'
+      ? { hooks: { beforeRequest: [({ request }) => { request.headers.set('cookie', cookie()); }] } }
+      : {}),
   });
 
   // ONE throttle for every request this transport makes — text, JSON, bytes, and each
