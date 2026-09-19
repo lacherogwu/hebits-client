@@ -14,7 +14,12 @@ export interface TransportOptions {
   cookie: string | (() => string);
   baseUrl?: string;
   userAgent?: string;
-  /** Default 1 request per 2s. Nothing here is latency-sensitive. */
+  /** Default 1 request per 2s. That assumes background/batch work, where nothing is
+   *  latency-sensitive — fine for something like an account builder. A consumer with a
+   *  person waiting on the result (listing or streaming to a UI, say) should pass its
+   *  own, tighter value; left at the default, requests serialise and a single screen
+   *  can take many seconds to fill. Raising it is a decision to make with the tracker,
+   *  not a free performance knob — a banned account is not recoverable. */
   rateLimit?: { limit: number; interval: number };
   /** Default 10 minutes. Set 0 to disable. */
   cacheTtlMs?: number;

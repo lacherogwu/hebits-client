@@ -46,12 +46,12 @@ test('freeleechOnly sets freetorrent=1', async () => {
 });
 
 test('imdb is sent as the search string', async () => {
-  await hb().search({ imdb: 'tt0944947' });
+  await hb().browse({ imdb: 'tt0944947' });
   expect(new URL(lastUrl).searchParams.get('searchstr')).toContain('tt0944947');
 });
 
 test('a season is appended to the query, since Gazelle has no season parameter', async () => {
-  await hb().search({ imdb: 'tt0944947', season: 3 });
+  await hb().browse({ imdb: 'tt0944947', season: 3 });
   const s = new URL(lastUrl).searchParams.get('searchstr')!;
   expect(s).toContain('tt0944947');
   expect(s).toMatch(/S0?3|season 3/i);

@@ -136,11 +136,6 @@ interface BrowseOptions {
 }
 ```
 
-### `hebits.search(options: BrowseOptions): Promise<HebitsTorrent[]>`
-
-Same endpoint as `browse`, kept as a separate method because call sites read better as
-"search" when there's a concrete query. Unlike `browse`, `options` is required here.
-
 ### `hebits.downloadTorrent(id: number): Promise<Uint8Array>`
 
 Downloads the `.torrent` file for a torrent id. Hebits serves an HTML page instead of a
@@ -151,7 +146,7 @@ that looks like a file.
 
 ## The `HebitsTorrent` shape
 
-Every torrent `browse`/`search` returns has this shape — the group it belongs to (film or
+Every torrent `browse` returns has this shape — the group it belongs to (film or
 show) is folded into each torrent, so you never deal with the tracker's nested
 group/torrent structure directly:
 
@@ -214,11 +209,13 @@ branch on the specific subclass:
 This client is deliberately slow and honest, not fast and stealthy:
 
 - **One request in flight at a time**, throttled to roughly **one request every two
-  seconds** by default (`rateLimit: { limit: 1, interval: 2000 }`). Nothing this package
-  does is latency-sensitive. This is a single shared throttle across every call this
-  client makes — `browse`/`stats`/etc. AND `downloadTorrent` AND each retry attempt of
-  any of them — so browsing and downloading interleaving, or a burst of retried 5xxs,
-  never doubles the real request rate.
+  seconds** by default (`rateLimit: { limit: 1, interval: 2000 }`). That default assumes
+  background/batch work, where nothing is latency-sensitive; a consumer with a person
+  waiting on the result should pass its own, tighter `rateLimit` — left at the default,
+  requests serialise and a single screen can take many seconds to fill. This is a single
+  shared throttle across every call this client makes — `browse`/`stats`/etc. AND
+  `downloadTorrent` AND each retry attempt of any of them — so browsing and downloading
+  interleaving, or a burst of retried 5xxs, never doubles the real request rate.
 - **Responses are cached for 10 minutes** by default (`cacheTtlMs`), capped at 200
   distinct query keys by default (`cacheMaxEntries`, an LRU bound), so repeating the same
   `browse`/`stats`/etc. call within that window returns the cached body instead of hitting
@@ -239,8 +236,8 @@ tracker rather than to turn the throttle up.
 
 - It never spends freeleech tokens on your behalf — nothing in this client calls a
   token-spending action; that decision stays with you.
-- It never decides what's worth downloading — `browse`/`search` hand you data, you choose
-  what to call `downloadTorrent` with.
+- It never decides what's worth downloading — `browse` hands you data, you choose what
+  to call `downloadTorrent` with.
 - It does not store your cookie anywhere. It's held in memory for the lifetime of the
   `Hebits` instance and sent as a request header; persisting it (env var, secrets
   manager, wherever) is your responsibility.

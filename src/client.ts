@@ -92,11 +92,6 @@ export class Hebits {
     return options.limit === undefined ? flat : flat.slice(0, options.limit);
   }
 
-  /** The same endpoint as browse; separate because the call sites read differently. */
-  search(options: BrowseOptions): Promise<HebitsTorrent[]> {
-    return this.browse(options);
-  }
-
   /** Hebits serves an HTML page when it refuses a download, so validate before returning. */
   async downloadTorrent(id: number): Promise<Uint8Array> {
     const bytes = await this.#transport.bytes('torrents.php', { action: 'download', id });
