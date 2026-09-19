@@ -1,0 +1,49 @@
+# Publishes to npm on a version tag, using npm's trusted publishing (OIDC).
+#
+# No npm token is stored anywhere: the job exchanges a short-lived GitHub OIDC
+# token for publish rights, and npm attaches a provenance attestation so anyone
+# can verify which commit and workflow produced the tarball.
+#
+# One-time setup on npmjs.com, under the package's Settings -> Trusted publisher:
+#   Organization or user: lacherogwu
+#   Repository:           hebits-client
+#   Workflow filename:    publish.yml
+#   Environment:          (leave empty)
+# Until that is registered, this job fails at the publish step.
+name: publish
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  id-token: write # mint the OIDC token npm exchanges for publish rights
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24 # trusted publishing needs npm >= 11.5.1, which 24 ships
+          registry-url: https://registry.npmjs.org
+
+      # A tag that disagrees with package.json publishes a version nobody asked
+      # for, under a name that points at the wrong commit.
+      - name: Tag must match package.json
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          pkg="$(node -p 'require("./package.json").version')"
+          if [ "$tag" != "$pkg" ]; then
+            echo "tag $GITHUB_REF_NAME does not match package.json version $pkg" >&2
+            exit 1
+          fi
+
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npm run lint:publish
+      - run: npm publish
