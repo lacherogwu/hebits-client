@@ -16,6 +16,7 @@
     "api-client"
   ],
   "author": "Asaf (lacherogwu)",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -42,7 +43,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
-    "@types/node": "^26.6.1",
+    "@types/node": "^26.6.2",
     "msw": "^2.15.0",
     "publint": "^0.3.24",
     "tsdown": "^0.23.0",
