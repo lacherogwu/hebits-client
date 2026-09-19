@@ -1,5 +1,9 @@
 # hebits-client
 
+[![npm](https://img.shields.io/npm/v/hebits-client)](https://www.npmjs.com/package/hebits-client)
+[![license](https://img.shields.io/npm/l/hebits-client)](LICENSE)
+[![types](https://img.shields.io/npm/types/hebits-client)](https://www.npmjs.com/package/hebits-client)
+
 A TypeScript client for [Hebits](https://hebits.net)'s JSON API — a private, invite-only
 Gazelle-based BitTorrent tracker. It wraps `ajax.php`, the browse/search endpoint, account
 stats, the daily download counter, and `.torrent` downloads, and validates every response

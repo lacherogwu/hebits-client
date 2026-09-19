@@ -11,9 +11,16 @@
   "keywords": [
     "hebits",
     "gazelle",
+    "gazelle-tracker",
+    "private-tracker",
     "torrent",
+    "bittorrent",
     "tracker",
-    "api-client"
+    "api-client",
+    "typescript",
+    "zod",
+    "hebrew",
+    "israel"
   ],
   "author": "Asaf (lacherogwu)",
   "types": "./dist/index.d.ts",
