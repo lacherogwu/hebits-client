@@ -84,7 +84,8 @@ test('downloadTorrent returns bytes', async () => {
 });
 
 test('an HTML body from the download endpoint raises NotATorrentError', async () => {
-  server.use(http.get('https://hebits.net/torrents.php', () =>
-    HttpResponse.arrayBuffer(new TextEncoder().encode('<html>no</html>').buffer)));
+  server.use(
+    http.get('https://hebits.net/torrents.php', () => HttpResponse.arrayBuffer(new TextEncoder().encode('<html>no</html>').buffer)),
+  );
   await expect(hb().downloadTorrent(1)).rejects.toThrow(NotATorrentError);
 });

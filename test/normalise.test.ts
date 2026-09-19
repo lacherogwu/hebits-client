@@ -4,9 +4,7 @@ import { browseResponseSchema, type RawGroup } from '../src/schemas';
 import { factorsFor, flattenGroups, imdbFromCatalogue, parseHebitsTime } from '../src/normalise';
 import { ApiError } from '../src/errors';
 
-const parsed = browseResponseSchema.parse(
-  JSON.parse(readFileSync(new URL('./fixtures/browse-freeleech.json', import.meta.url), 'utf8')),
-);
+const parsed = browseResponseSchema.parse(JSON.parse(readFileSync(new URL('./fixtures/browse-freeleech.json', import.meta.url), 'utf8')));
 
 test('imdbFromCatalogue extracts the id, with or without a trailing slash', () => {
   expect(imdbFromCatalogue('https://www.imdb.com/title/tt6820256')).toBe('tt6820256');
@@ -30,13 +28,12 @@ test('parseHebitsTime does not depend on the machine timezone', () => {
   try {
     for (const tz of ['UTC', 'Asia/Jerusalem', 'America/New_York', 'Australia/Sydney']) {
       process.env['TZ'] = tz;
-      expect(parseHebitsTime('2026-01-15 12:00:00').toISOString(), `winter under TZ=${tz}`)
-        .toBe('2026-01-15T10:00:00.000Z');
-      expect(parseHebitsTime('2026-07-15 12:00:00').toISOString(), `summer under TZ=${tz}`)
-        .toBe('2026-07-15T09:00:00.000Z');
+      expect(parseHebitsTime('2026-01-15 12:00:00').toISOString(), `winter under TZ=${tz}`).toBe('2026-01-15T10:00:00.000Z');
+      expect(parseHebitsTime('2026-07-15 12:00:00').toISOString(), `summer under TZ=${tz}`).toBe('2026-07-15T09:00:00.000Z');
     }
   } finally {
-    if (original === undefined) delete process.env['TZ']; else process.env['TZ'] = original;
+    if (original === undefined) delete process.env['TZ'];
+    else process.env['TZ'] = original;
   }
 });
 
@@ -46,9 +43,14 @@ test('an unparseable timestamp raises ApiError rather than an Invalid Date', () 
 
 function formatJerusalem(d: Date): string {
   const fmt = new Intl.DateTimeFormat('en-US', {
-    timeZone: 'Asia/Jerusalem', hour12: false,
-    year: 'numeric', month: '2-digit', day: '2-digit',
-    hour: '2-digit', minute: '2-digit', second: '2-digit',
+    timeZone: 'Asia/Jerusalem',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
   });
   const p = Object.fromEntries(fmt.formatToParts(d).map((x) => [x.type, x.value])) as Record<string, string>;
   return `${p['year']}-${p['month']}-${p['day']} ${p['hour']}:${p['minute']}:${p['second']}`;
@@ -87,8 +89,13 @@ test('fall-back overlap (10-25 01:00-01:59, 2026): resolves to the later (IST) r
 
 test('factorsFor maps every flag combination the tracker uses', () => {
   const base = {
-    isFreeleech: false, isHalfFreeleech: false, isQuarterLeech: false,
-    isNeutralLeech: false, isPersonalFreeleech: false, isUploadX2: false, isUploadX3: false,
+    isFreeleech: false,
+    isHalfFreeleech: false,
+    isQuarterLeech: false,
+    isNeutralLeech: false,
+    isPersonalFreeleech: false,
+    isUploadX2: false,
+    isUploadX3: false,
   };
   expect(factorsFor({ ...base })).toEqual({ downloadFactor: 1, uploadFactor: 1 });
   expect(factorsFor({ ...base, isFreeleech: true })).toEqual({ downloadFactor: 0, uploadFactor: 1 });
@@ -103,8 +110,13 @@ test('factorsFor maps every flag combination the tracker uses', () => {
 
 test('factorsFor: the cheaper of half- and quarter-leech wins if a torrent is somehow flagged both', () => {
   const base = {
-    isFreeleech: false, isHalfFreeleech: true, isQuarterLeech: true,
-    isNeutralLeech: false, isPersonalFreeleech: false, isUploadX2: false, isUploadX3: false,
+    isFreeleech: false,
+    isHalfFreeleech: true,
+    isQuarterLeech: true,
+    isNeutralLeech: false,
+    isPersonalFreeleech: false,
+    isUploadX2: false,
+    isUploadX3: false,
   };
   expect(factorsFor(base).downloadFactor).toBe(0.25);
 });

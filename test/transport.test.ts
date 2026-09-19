@@ -6,24 +6,36 @@ import { LoginExpiredError, RateLimitedError } from '../src/errors';
 
 let hits = 0;
 const server = setupServer(
-  http.get('https://hebits.net/ok.php', () => { hits++; return HttpResponse.json({ ok: true }); }),
+  http.get('https://hebits.net/ok.php', () => {
+    hits++;
+    return HttpResponse.json({ ok: true });
+  }),
   http.get('https://hebits.net/login.php', () => HttpResponse.text('<form id="loginform">', { status: 200 })),
   http.get('https://hebits.net/redirect.php', () => new HttpResponse(null, { status: 302, headers: { location: '/login.php' } })),
   http.get('https://hebits.net/slow.php', () => new HttpResponse(null, { status: 429 })),
   http.get('https://hebits.net/dl-redirect.php', () => new HttpResponse(null, { status: 302, headers: { location: '/login.php' } })),
   http.get('https://hebits.net/dl-slow.php', () => new HttpResponse(null, { status: 429 })),
   http.get('https://hebits.net/dl-loginpage.php', () =>
-    HttpResponse.arrayBuffer(new TextEncoder().encode('<html><form id="loginform">login</form></html>').buffer, { status: 200 })),
+    HttpResponse.arrayBuffer(new TextEncoder().encode('<html><form id="loginform">login</form></html>').buffer, { status: 200 }),
+  ),
 );
 beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));
-afterEach(() => { server.resetHandlers(); hits = 0; });
+afterEach(() => {
+  server.resetHandlers();
+  hits = 0;
+});
 afterAll(() => server.close());
 
 const make = (over = {}) => createTransport({ cookie: 'sid=abc', rateLimit: { limit: 100, interval: 1 }, cacheTtlMs: 60_000, ...over });
 
 test('sends the cookie and an honest user agent, never a browser one', async () => {
   let seen: Headers | undefined;
-  server.use(http.get('https://hebits.net/ok.php', ({ request }) => { seen = request.headers; return HttpResponse.json({ ok: true }); }));
+  server.use(
+    http.get('https://hebits.net/ok.php', ({ request }) => {
+      seen = request.headers;
+      return HttpResponse.json({ ok: true });
+    }),
+  );
   await make().json('ok.php');
   expect(seen!.get('cookie')).toBe('sid=abc');
   expect(seen!.get('user-agent')).toMatch(/^hebits-client\//);
@@ -61,10 +73,12 @@ test('the cache expires', async () => {
 
 test('a failure is NOT cached — the next call retries', async () => {
   let n = 0;
-  server.use(http.get('https://hebits.net/flaky.php', () => {
-    n++;
-    return n === 1 ? new HttpResponse(null, { status: 500 }) : HttpResponse.json({ ok: true });
-  }));
+  server.use(
+    http.get('https://hebits.net/flaky.php', () => {
+      n++;
+      return n === 1 ? new HttpResponse(null, { status: 500 }) : HttpResponse.json({ ok: true });
+    }),
+  );
   const t = make({ retry: 0 });
   await expect(t.json('flaky.php')).rejects.toThrow();
   await expect(t.json('flaky.php')).resolves.toBeTruthy();
@@ -85,7 +99,12 @@ test('429 becomes RateLimitedError', async () => {
 
 test('LoginExpiredError is never retried — one attempt only', async () => {
   let n = 0;
-  server.use(http.get('https://hebits.net/dead.php', () => { n++; return new HttpResponse(null, { status: 302, headers: { location: '/login.php' } }); }));
+  server.use(
+    http.get('https://hebits.net/dead.php', () => {
+      n++;
+      return new HttpResponse(null, { status: 302, headers: { location: '/login.php' } });
+    }),
+  );
   await expect(make({ retry: 3 }).json('dead.php')).rejects.toThrow(LoginExpiredError);
   expect(n).toBe(1);
 });
@@ -109,8 +128,7 @@ test('the throttle serialises requests', async () => {
 // (bytes) interleave in the account builder's normal loop, so they must share the rate
 // limit rather than each getting their own — which would double the real request rate.
 test('a JSON call and a byte call share the same throttle, not one each', async () => {
-  server.use(http.get('https://hebits.net/dl-ok.php', () =>
-    HttpResponse.arrayBuffer(new TextEncoder().encode('d4:infoe').buffer)));
+  server.use(http.get('https://hebits.net/dl-ok.php', () => HttpResponse.arrayBuffer(new TextEncoder().encode('d4:infoe').buffer)));
   const t = createTransport({ cookie: 'x', rateLimit: { limit: 1, interval: 50 }, cacheTtlMs: 0 });
   const started = Date.now();
   await Promise.all([t.json('ok.php'), t.bytes('dl-ok.php')]);
@@ -135,17 +153,24 @@ test('a login page served with 200 on the download endpoint raises LoginExpiredE
 // (which includes the query string) — otherwise searching for the literal text
 // "login.php" falsely looks like a dead cookie.
 test('searching for the literal string "login.php" does not falsely trip LoginExpiredError', async () => {
-  server.use(http.get('https://hebits.net/ok.php', ({ request }) => {
-    const q = new URL(request.url).searchParams.get('searchstr');
-    return HttpResponse.json({ ok: true, q });
-  }));
+  server.use(
+    http.get('https://hebits.net/ok.php', ({ request }) => {
+      const q = new URL(request.url).searchParams.get('searchstr');
+      return HttpResponse.json({ ok: true, q });
+    }),
+  );
   await expect(make().json('ok.php', { searchstr: 'login.php' })).resolves.toEqual({ ok: true, q: 'login.php' });
 });
 
 // Finding 4: the response cache must not grow without bound.
 test('the response cache evicts once it exceeds cacheMaxEntries', async () => {
   let calls = 0;
-  server.use(http.get('https://hebits.net/many.php', () => { calls++; return HttpResponse.json({ ok: true }); }));
+  server.use(
+    http.get('https://hebits.net/many.php', () => {
+      calls++;
+      return HttpResponse.json({ ok: true });
+    }),
+  );
   const t = createTransport({ cookie: 'x', rateLimit: { limit: 1000, interval: 1 }, cacheTtlMs: 60_000, cacheMaxEntries: 10 });
   for (let i = 0; i < 50; i++) await t.json('many.php', { i });
   expect(calls).toBe(50);
@@ -167,14 +192,24 @@ test('bypassCache reads through even when a fresh cache entry exists', async () 
 
 test('a string cookie sends the same header as before (backward compatibility)', async () => {
   let seen: Headers | undefined;
-  server.use(http.get('https://hebits.net/ok.php', ({ request }) => { seen = request.headers; return HttpResponse.json({ ok: true }); }));
+  server.use(
+    http.get('https://hebits.net/ok.php', ({ request }) => {
+      seen = request.headers;
+      return HttpResponse.json({ ok: true });
+    }),
+  );
   await make({ cookie: 'sid=abc' }).json('ok.php');
   expect(seen!.get('cookie')).toBe('sid=abc');
 });
 
 test('a cookie provider is called per request, and a changed value is reflected on the next request', async () => {
   const seen: (string | null)[] = [];
-  server.use(http.get('https://hebits.net/ok.php', ({ request }) => { seen.push(request.headers.get('cookie')); return HttpResponse.json({ ok: true }); }));
+  server.use(
+    http.get('https://hebits.net/ok.php', ({ request }) => {
+      seen.push(request.headers.get('cookie'));
+      return HttpResponse.json({ ok: true });
+    }),
+  );
   let current = 'sid=first';
   const t = createTransport({ cookie: () => current, rateLimit: { limit: 100, interval: 1 }, cacheTtlMs: 0 });
   await t.json('ok.php');
@@ -205,10 +240,12 @@ test('the provider is never exposed through a thrown error', async () => {
 // attempt is its own throttled call, so a retry burst is still spaced like any other request.
 test('a retried request is spaced by the throttle, not fired back-to-back', async () => {
   let n = 0;
-  server.use(http.get('https://hebits.net/retry-spacing.php', () => {
-    n++;
-    return n < 3 ? new HttpResponse(null, { status: 500 }) : HttpResponse.json({ ok: true });
-  }));
+  server.use(
+    http.get('https://hebits.net/retry-spacing.php', () => {
+      n++;
+      return n < 3 ? new HttpResponse(null, { status: 500 }) : HttpResponse.json({ ok: true });
+    }),
+  );
   const t = createTransport({ cookie: 'x', rateLimit: { limit: 1, interval: 60 }, cacheTtlMs: 0, retry: 2 });
   const started = Date.now();
   await expect(t.json('retry-spacing.php')).resolves.toEqual({ ok: true });

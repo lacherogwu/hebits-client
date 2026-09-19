@@ -3,17 +3,13 @@ import { expect, test } from 'vitest';
 import { browseResponseSchema, indexResponseSchema, parseOrThrow } from '../src/schemas';
 import { ApiError } from '../src/errors';
 
-const fixture = (name: string) =>
-  JSON.parse(readFileSync(new URL(`./fixtures/${name}`, import.meta.url), 'utf8'));
+const fixture = (name: string) => JSON.parse(readFileSync(new URL(`./fixtures/${name}`, import.meta.url), 'utf8'));
 
-test.each(['browse-freeleech.json', 'browse-latest.json', 'search-imdb.json'])(
-  '%s parses against the browse schema',
-  (name) => {
-    const r = browseResponseSchema.safeParse(fixture(name));
-    if (!r.success) throw new Error(`${name} failed: ${JSON.stringify(r.error.issues.slice(0, 5), null, 2)}`);
-    expect(r.success).toBe(true);
-  },
-);
+test.each(['browse-freeleech.json', 'browse-latest.json', 'search-imdb.json'])('%s parses against the browse schema', (name) => {
+  const r = browseResponseSchema.safeParse(fixture(name));
+  if (!r.success) throw new Error(`${name} failed: ${JSON.stringify(r.error.issues.slice(0, 5), null, 2)}`);
+  expect(r.success).toBe(true);
+});
 
 test('index.json parses against the index schema', () => {
   const r = indexResponseSchema.safeParse(fixture('index.json'));
@@ -29,8 +25,7 @@ test('a browse fixture yields at least one group with at least one torrent', () 
 });
 
 test('parseOrThrow turns a schema mismatch into ApiError naming the field', () => {
-  expect(() => parseOrThrow(indexResponseSchema, { status: 'success', response: {} }, 'index'))
-    .toThrow(ApiError);
+  expect(() => parseOrThrow(indexResponseSchema, { status: 'success', response: {} }, 'index')).toThrow(ApiError);
   try {
     parseOrThrow(indexResponseSchema, { status: 'success', response: {} }, 'index');
   } catch (e) {
@@ -48,15 +43,29 @@ test('a non-success status is rejected', () => {
 // plausible `false`.
 test('a torrent missing hasSnatched is rejected with ApiError, not defaulted', () => {
   const group = {
-    groupId: 1, groupName: 'g', categoryID: 1,
-    torrents: [{
-      torrentId: 1, fileCount: 1, time: '2026-01-15 12:00:00', size: 100,
-      snatches: 0, seeders: 1, leechers: 0,
-      isFreeleech: false, isHalfFreeleech: false, isQuarterLeech: false, isNeutralLeech: false,
-      isPersonalFreeleech: false, isUploadX2: false, isUploadX3: false,
-      canUseToken: true,
-      // hasSnatched intentionally omitted
-    }],
+    groupId: 1,
+    groupName: 'g',
+    categoryID: 1,
+    torrents: [
+      {
+        torrentId: 1,
+        fileCount: 1,
+        time: '2026-01-15 12:00:00',
+        size: 100,
+        snatches: 0,
+        seeders: 1,
+        leechers: 0,
+        isFreeleech: false,
+        isHalfFreeleech: false,
+        isQuarterLeech: false,
+        isNeutralLeech: false,
+        isPersonalFreeleech: false,
+        isUploadX2: false,
+        isUploadX3: false,
+        canUseToken: true,
+        // hasSnatched intentionally omitted
+      },
+    ],
   };
   const data = { status: 'success', response: { results: [group] } };
   expect(() => parseOrThrow(browseResponseSchema, data, 'ajax.php?action=browse')).toThrow(ApiError);

@@ -44,14 +44,23 @@ export function imdbFromCatalogue(url: string | undefined): string | undefined {
  *  filtering on "uploaded in the last N hours". */
 function zoneOffsetMs(at: Date, timeZone: string): number {
   const fmt = new Intl.DateTimeFormat('en-US', {
-    timeZone, hour12: false,
-    year: 'numeric', month: '2-digit', day: '2-digit',
-    hour: '2-digit', minute: '2-digit', second: '2-digit',
+    timeZone,
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
   });
   const p = Object.fromEntries(fmt.formatToParts(at).map((x) => [x.type, x.value])) as Record<string, string>;
   const asUtc = Date.UTC(
-    Number(p['year']), Number(p['month']) - 1, Number(p['day']),
-    Number(p['hour']) % 24, Number(p['minute']), Number(p['second']),
+    Number(p['year']),
+    Number(p['month']) - 1,
+    Number(p['day']),
+    Number(p['hour']) % 24,
+    Number(p['minute']),
+    Number(p['second']),
   );
   return asUtc - at.getTime();
 }
@@ -82,8 +91,7 @@ export function parseHebitsTime(s: string): Date {
 
 type Flags = Pick<
   RawTorrent,
-  'isFreeleech' | 'isHalfFreeleech' | 'isQuarterLeech' | 'isNeutralLeech'
-  | 'isPersonalFreeleech' | 'isUploadX2' | 'isUploadX3'
+  'isFreeleech' | 'isHalfFreeleech' | 'isQuarterLeech' | 'isNeutralLeech' | 'isPersonalFreeleech' | 'isUploadX2' | 'isUploadX3'
 >;
 
 /** Collapse the tracker's seven boolean flags into the two numbers consumers reason

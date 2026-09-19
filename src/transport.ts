@@ -97,7 +97,15 @@ export function createTransport(opts: TransportOptions): Transport {
     // effect on the very next call without recreating the client.
     headers: { 'user-agent': userAgent, ...(typeof cookie === 'string' ? { cookie } : {}) },
     ...(typeof cookie === 'function'
-      ? { hooks: { beforeRequest: [({ request }) => { request.headers.set('cookie', cookie()); }] } }
+      ? {
+          hooks: {
+            beforeRequest: [
+              ({ request }) => {
+                request.headers.set('cookie', cookie());
+              },
+            ],
+          },
+        }
       : {}),
   });
 
@@ -184,11 +192,7 @@ export function createTransport(opts: TransportOptions): Transport {
     pruneCache();
   }
 
-  async function fetchBody(
-    path: string,
-    sp: Record<string, string | number> | undefined,
-    opts?: RequestOptions,
-  ): Promise<string> {
+  async function fetchBody(path: string, sp: Record<string, string | number> | undefined, opts?: RequestOptions): Promise<string> {
     const key = `${path}?${new URLSearchParams(Object.entries(sp ?? {}).map(([k, v]) => [k, String(v)])).toString()}`;
     if (cacheTtlMs > 0 && !opts?.bypassCache) {
       const hit = cacheGet(key);
