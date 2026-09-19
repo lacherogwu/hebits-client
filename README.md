@@ -197,12 +197,6 @@ of that hour can read up to an hour newer than it really is. Both cases are docu
 boolean flags into two numbers: freeleech beats half- and quarter-leech, and a
 neutral-leech flag overrides everything else to `0`/`0`.
 
-## Responses are validated, not trusted
-
-> Responses are validated with zod at the boundary. If Hebits changes its API, you get a
-> clear `ApiError` naming the field rather than `undefined` propagating into your own
-> logic.
-
 ## Errors
 
 All errors extend `HebitsError` (itself an `Error`), so you can catch that base class or
