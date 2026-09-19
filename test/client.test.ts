@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
-import { afterAll, afterEach, beforeAll, expect, test } from 'vitest';
-import { http, HttpResponse } from 'msw';
+import { HttpResponse, http } from 'msw';
 import { setupServer } from 'msw/node';
+import { afterAll, afterEach, beforeAll, expect, test } from 'vitest';
 import { Hebits } from '../src/client';
 import { NotATorrentError } from '../src/errors';
 

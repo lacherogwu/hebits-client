@@ -1,0 +1,57 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.14/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "includes": ["src/**/*.ts", "test/**/*.ts", "*.config.ts", "!dist", "!node_modules"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 140
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "recommended"
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "semicolons": "always",
+      "trailingCommas": "all"
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
+  "overrides": [
+    {
+      // Tests deliberately use `foo!` to assert a value is present right after a
+      // `toBeDefined`/`toBeGreaterThan`/etc. check, or on a `noUncheckedIndexedAccess`
+      // array/record read whose non-emptiness was just verified. The rule's own autofix
+      // rewrites `!` to `?.` (marked unsafe), which is a real behaviour change — a bad
+      // read would then silently become `undefined` deep in a matcher instead of
+      // throwing where the bug is. Disabled here rather than in production code, which
+      // has no non-null assertions at all.
+      "includes": ["test/**/*.ts"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noNonNullAssertion": "off"
+          }
+        }
+      }
+    }
+  ]
+}

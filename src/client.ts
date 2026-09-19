@@ -80,10 +80,10 @@ export class Hebits {
     const terms = [options.imdb ?? options.query, options.season ? `S${String(options.season).padStart(2, '0')}` : undefined]
       .filter(Boolean)
       .join(' ');
-    if (terms) sp['searchstr'] = terms;
-    if (options.freeleechOnly) sp['freetorrent'] = 1;
-    if (options.orderBy) sp['order_by'] = options.orderBy;
-    if (options.orderWay) sp['order_way'] = options.orderWay;
+    if (terms) sp.searchstr = terms;
+    if (options.freeleechOnly) sp.freetorrent = 1;
+    if (options.orderBy) sp.order_by = options.orderBy;
+    if (options.orderWay) sp.order_way = options.orderWay;
     for (const c of options.categories ?? []) sp[`filter_cat[${c}]`] = 1;
 
     const raw = await this.#transport.json('ajax.php', sp);

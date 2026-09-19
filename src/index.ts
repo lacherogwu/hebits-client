@@ -1,4 +1,4 @@
-export { Hebits } from './client';
 export type { AccountStats, BrowseOptions, HebitsOptions } from './client';
-export type { HebitsTorrent } from './normalise';
+export { Hebits } from './client';
 export { ApiError, HebitsError, LoginExpiredError, NotATorrentError, RateLimitedError } from './errors';
+export type { HebitsTorrent } from './normalise';

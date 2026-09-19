@@ -1,8 +1,8 @@
-import { afterAll, afterEach, beforeAll, expect, test, vi } from 'vitest';
-import { http, HttpResponse } from 'msw';
+import { HttpResponse, http } from 'msw';
 import { setupServer } from 'msw/node';
-import { createTransport } from '../src/transport';
+import { afterAll, afterEach, beforeAll, expect, test, vi } from 'vitest';
 import { LoginExpiredError, RateLimitedError } from '../src/errors';
+import { createTransport } from '../src/transport';
 
 let hits = 0;
 const server = setupServer(

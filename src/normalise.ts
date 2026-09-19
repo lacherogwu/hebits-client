@@ -54,14 +54,7 @@ function zoneOffsetMs(at: Date, timeZone: string): number {
     second: '2-digit',
   });
   const p = Object.fromEntries(fmt.formatToParts(at).map((x) => [x.type, x.value])) as Record<string, string>;
-  const asUtc = Date.UTC(
-    Number(p['year']),
-    Number(p['month']) - 1,
-    Number(p['day']),
-    Number(p['hour']) % 24,
-    Number(p['minute']),
-    Number(p['second']),
-  );
+  const asUtc = Date.UTC(Number(p.year), Number(p.month) - 1, Number(p.day), Number(p.hour) % 24, Number(p.minute), Number(p.second));
   return asUtc - at.getTime();
 }
 

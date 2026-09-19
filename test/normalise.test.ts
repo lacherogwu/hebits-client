@@ -1,8 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
-import { browseResponseSchema, type RawGroup } from '../src/schemas';
 import { factorsFor, flattenGroups, imdbFromCatalogue, parseHebitsTime } from '../src/normalise';
-import { ApiError } from '../src/errors';
+import { browseResponseSchema, type RawGroup } from '../src/schemas';
 
 const parsed = browseResponseSchema.parse(JSON.parse(readFileSync(new URL('./fixtures/browse-freeleech.json', import.meta.url), 'utf8')));
 
@@ -24,16 +23,16 @@ test('parseHebitsTime reads the unzoned string as Israel time, not UTC', () => {
 test('parseHebitsTime does not depend on the machine timezone', () => {
   // The obvious implementation (re-parsing toLocaleString output) passes only on a UTC
   // host. This test fails it on any developer laptop, which is the point.
-  const original = process.env['TZ'];
+  const original = process.env.TZ;
   try {
     for (const tz of ['UTC', 'Asia/Jerusalem', 'America/New_York', 'Australia/Sydney']) {
-      process.env['TZ'] = tz;
+      process.env.TZ = tz;
       expect(parseHebitsTime('2026-01-15 12:00:00').toISOString(), `winter under TZ=${tz}`).toBe('2026-01-15T10:00:00.000Z');
       expect(parseHebitsTime('2026-07-15 12:00:00').toISOString(), `summer under TZ=${tz}`).toBe('2026-07-15T09:00:00.000Z');
     }
   } finally {
-    if (original === undefined) delete process.env['TZ'];
-    else process.env['TZ'] = original;
+    if (original === undefined) delete process.env.TZ;
+    else process.env.TZ = original;
   }
 });
 
@@ -53,7 +52,7 @@ function formatJerusalem(d: Date): string {
     second: '2-digit',
   });
   const p = Object.fromEntries(fmt.formatToParts(d).map((x) => [x.type, x.value])) as Record<string, string>;
-  return `${p['year']}-${p['month']}-${p['day']} ${p['hour']}:${p['minute']}:${p['second']}`;
+  return `${p.year}-${p.month}-${p.day} ${p.hour}:${p.minute}:${p.second}`;
 }
 
 // Asia/Jerusalem's 2026 DST transitions: spring forward on 03-27 (02:00 IST -> 03:00
